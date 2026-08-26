@@ -1,0 +1,21 @@
+{
+  "name": "switch-eshop-radar",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "crawler",
+    "web"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --ext .ts,.vue",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "prettier": "^3.4.0"
+  }
+}
