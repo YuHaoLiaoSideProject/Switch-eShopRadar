@@ -27,5 +27,4 @@ npm-debug.log*
 # Test coverage
 coverage/
 
-# Crawler data
-crawler/data/
+

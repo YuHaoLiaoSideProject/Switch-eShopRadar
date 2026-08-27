@@ -1,0 +1,944 @@
+{
+  "date": "2026-08-27",
+  "prices": [
+    {
+      "id": "70010000095685",
+      "amount": 1599,
+      "currency": "TWD",
+      "regularPrice": 1599,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000094237",
+      "amount": 1449,
+      "currency": "TWD",
+      "regularPrice": 1449,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000104190",
+      "amount": 889,
+      "currency": "TWD",
+      "regularPrice": 889,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000104195",
+      "amount": 889,
+      "currency": "TWD",
+      "regularPrice": 889,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000088835",
+      "amount": 1539,
+      "currency": "TWD",
+      "regularPrice": 1539,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000084606",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000089517",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000084616",
+      "amount": 1449,
+      "currency": "TWD",
+      "regularPrice": 1449,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000084611",
+      "amount": 1449,
+      "currency": "TWD",
+      "regularPrice": 1449,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000084621",
+      "amount": 1539,
+      "currency": "TWD",
+      "regularPrice": 1539,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000084626",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000080667",
+      "amount": 769,
+      "currency": "TWD",
+      "regularPrice": 769,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000077703",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000079170",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000077708",
+      "amount": 1109,
+      "currency": "TWD",
+      "regularPrice": 1109,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000072184",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000072194",
+      "amount": 1109,
+      "currency": "TWD",
+      "regularPrice": 1109,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000072199",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000068686",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000068681",
+      "amount": 1109,
+      "currency": "TWD",
+      "regularPrice": 1109,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000068691",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000068696",
+      "amount": 1339,
+      "currency": "TWD",
+      "regularPrice": 1339,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000058466",
+      "amount": 630,
+      "currency": "TWD",
+      "regularPrice": 630,
+      "salesStatus": "onsale",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000134309",
+      "amount": 74,
+      "currency": "TWD",
+      "regularPrice": 74,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000131481",
+      "amount": 88,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-27T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000118646",
+      "amount": 449,
+      "currency": "TWD",
+      "regularPrice": 449,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000134145",
+      "amount": 225,
+      "currency": "TWD",
+      "regularPrice": 225,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000134365",
+      "amount": 99,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "discountPrice": 99,
+      "discountPercent": 10,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-27T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000102739",
+      "amount": 412,
+      "currency": "TWD",
+      "regularPrice": 412,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000130152",
+      "amount": 88,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-27T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000107439",
+      "amount": 890,
+      "currency": "TWD",
+      "regularPrice": 890,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000122890",
+      "amount": 319,
+      "currency": "TWD",
+      "regularPrice": 799,
+      "discountPrice": 319,
+      "discountPercent": 60,
+      "discountStart": "2026-08-19T16:00:00Z",
+      "discountEnd": "2026-09-29T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000130924",
+      "amount": 88,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-27T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000134029",
+      "amount": 165,
+      "currency": "TWD",
+      "regularPrice": 165,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000122884",
+      "amount": 319,
+      "currency": "TWD",
+      "regularPrice": 799,
+      "discountPrice": 319,
+      "discountPercent": 60,
+      "discountStart": "2026-08-19T16:00:00Z",
+      "discountEnd": "2026-09-29T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000132206",
+      "amount": 110,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000126846",
+      "amount": 159,
+      "currency": "TWD",
+      "regularPrice": 159,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000120802",
+      "amount": 549,
+      "currency": "TWD",
+      "regularPrice": 549,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000133085",
+      "amount": 88,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-27T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000119037",
+      "amount": 486,
+      "currency": "TWD",
+      "regularPrice": 486,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000131651",
+      "amount": 88,
+      "currency": "TWD",
+      "regularPrice": 110,
+      "discountPrice": 88,
+      "discountPercent": 20,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-27T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000131599",
+      "amount": 349,
+      "currency": "TWD",
+      "regularPrice": 349,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000127989",
+      "amount": 490,
+      "currency": "TWD",
+      "regularPrice": 490,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000129164",
+      "amount": 290,
+      "currency": "TWD",
+      "regularPrice": 290,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000126133",
+      "amount": 520,
+      "currency": "TWD",
+      "regularPrice": 520,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000128549",
+      "amount": 1599,
+      "currency": "TWD",
+      "regularPrice": 1599,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000129246",
+      "amount": 319,
+      "currency": "TWD",
+      "regularPrice": 799,
+      "discountPrice": 319,
+      "discountPercent": 60,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-10-06T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000105950",
+      "amount": 30,
+      "currency": "TWD",
+      "regularPrice": 30,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000125066",
+      "amount": 95,
+      "currency": "TWD",
+      "regularPrice": 95,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000132400",
+      "amount": 225,
+      "currency": "TWD",
+      "regularPrice": 225,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000124782",
+      "amount": 0,
+      "currency": "TWD",
+      "regularPrice": 0,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000054199",
+      "amount": 290,
+      "currency": "TWD",
+      "regularPrice": 290,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000110300",
+      "amount": 290,
+      "currency": "TWD",
+      "regularPrice": 290,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000131533",
+      "amount": 151,
+      "currency": "TWD",
+      "regularPrice": 211,
+      "discountPrice": 151,
+      "discountPercent": 28,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-11-24T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000129227",
+      "amount": 319,
+      "currency": "TWD",
+      "regularPrice": 799,
+      "discountPrice": 319,
+      "discountPercent": 60,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-10-06T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000105773",
+      "amount": 990,
+      "currency": "TWD",
+      "regularPrice": 990,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000121598",
+      "amount": 440,
+      "currency": "TWD",
+      "regularPrice": 550,
+      "discountPrice": 440,
+      "discountPercent": 20,
+      "discountStart": "2026-08-12T16:00:00Z",
+      "discountEnd": "2026-09-15T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000110145",
+      "amount": 980,
+      "currency": "TWD",
+      "regularPrice": 980,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000114919",
+      "amount": 440,
+      "currency": "TWD",
+      "regularPrice": 489,
+      "discountPrice": 440,
+      "discountPercent": 10,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-10-01T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000128495",
+      "amount": 1880,
+      "currency": "TWD",
+      "regularPrice": 1880,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000098060",
+      "amount": 349,
+      "currency": "TWD",
+      "regularPrice": 349,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000122902",
+      "amount": 351,
+      "currency": "TWD",
+      "regularPrice": 439,
+      "discountPrice": 351,
+      "discountPercent": 20,
+      "discountStart": "2026-08-19T16:00:00Z",
+      "discountEnd": "2026-09-16T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000133433",
+      "amount": 220,
+      "currency": "TWD",
+      "regularPrice": 220,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000111688",
+      "amount": 102,
+      "currency": "TWD",
+      "regularPrice": 102,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000128026",
+      "amount": 290,
+      "currency": "TWD",
+      "regularPrice": 290,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000115751",
+      "amount": 1264,
+      "currency": "TWD",
+      "regularPrice": 1488,
+      "discountPrice": 1264,
+      "discountPercent": 15,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-23T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000117655",
+      "amount": 290,
+      "currency": "TWD",
+      "regularPrice": 290,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000116098",
+      "amount": 485,
+      "currency": "TWD",
+      "regularPrice": 485,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000111987",
+      "amount": 1264,
+      "currency": "TWD",
+      "regularPrice": 1488,
+      "discountPrice": 1264,
+      "discountPercent": 15,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-09-23T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000115747",
+      "amount": 899,
+      "currency": "TWD",
+      "regularPrice": 899,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000121704",
+      "amount": 328,
+      "currency": "TWD",
+      "regularPrice": 328,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000130350",
+      "amount": 830,
+      "currency": "TWD",
+      "regularPrice": 830,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000133403",
+      "amount": 590,
+      "currency": "TWD",
+      "regularPrice": 590,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000120438",
+      "amount": 890,
+      "currency": "TWD",
+      "regularPrice": 890,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000110120",
+      "amount": 0,
+      "currency": "TWD",
+      "regularPrice": 0,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000067524",
+      "amount": 848,
+      "currency": "TWD",
+      "regularPrice": 848,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000130719",
+      "amount": 179,
+      "currency": "TWD",
+      "regularPrice": 179,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000119986",
+      "amount": 620,
+      "currency": "TWD",
+      "regularPrice": 689,
+      "discountPrice": 620,
+      "discountPercent": 10,
+      "discountStart": "2026-08-26T16:00:00Z",
+      "discountEnd": "2026-10-14T15:59:59Z",
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000090756",
+      "amount": 561,
+      "currency": "TWD",
+      "regularPrice": 561,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000094263",
+      "amount": 1190,
+      "currency": "TWD",
+      "regularPrice": 1190,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000099842",
+      "amount": 288,
+      "currency": "TWD",
+      "regularPrice": 288,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000109111",
+      "amount": 561,
+      "currency": "TWD",
+      "regularPrice": 561,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000116854",
+      "amount": 790,
+      "currency": "TWD",
+      "regularPrice": 790,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000109116",
+      "amount": 377,
+      "currency": "TWD",
+      "regularPrice": 377,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000110877",
+      "amount": 0,
+      "currency": "TWD",
+      "regularPrice": 0,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000110968",
+      "amount": 0,
+      "currency": "TWD",
+      "regularPrice": 0,
+      "salesStatus": "unreleased"
+    },
+    {
+      "id": "70010000117098",
+      "amount": 1490,
+      "currency": "TWD",
+      "regularPrice": 1490,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000118148",
+      "amount": 1390,
+      "currency": "TWD",
+      "regularPrice": 1390,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    },
+    {
+      "id": "70010000092412",
+      "amount": 1590,
+      "currency": "TWD",
+      "regularPrice": 1590,
+      "salesStatus": "preorder",
+      "goldPoint": {
+        "basicGiftRate": "0",
+        "basicGiftGp": "0"
+      }
+    }
+  ]
+}
