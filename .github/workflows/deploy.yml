@@ -34,24 +34,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Copy data to web/public
-        run: |
-          mkdir -p web/public/data
-          if [ -d data ]; then
-            cp -r data/* web/public/data/ || true
-            echo "Data copied to web/public/data/"
-          else
-            echo "No data directory found — web will run without data"
-            # 建立空的 placeholder 避免 404
-            echo '[]' > web/public/data/games.json
-            echo '{"date":"","prices":[]}' > web/public/data/latest.json
-          fi
+      - name: Run crawler
+        run: npm run -w @eshop/crawler start
 
-      - name: Type check
-        run: npm run -w @eshop/web typecheck
-
-      - name: Build web
-        run: npm run -w @eshop/web build
+      - name: Build
+        run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

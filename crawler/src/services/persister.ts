@@ -8,7 +8,6 @@ export interface PersistPaths {
   dataDir: string;
   gamesPath: string;
   latestPath: string;
-  historyDir: string;
 }
 
 /**
@@ -19,7 +18,6 @@ export function buildPaths(dataDir: string): PersistPaths {
     dataDir,
     gamesPath: path.join(dataDir, 'games.json'),
     latestPath: path.join(dataDir, 'latest.json'),
-    historyDir: path.join(dataDir, 'history'),
   };
 }
 
@@ -202,60 +200,46 @@ export function readLatest(dataDir: string): PriceSnapshot | null {
   }
 }
 
-// ─── Append Delta ───────────────────────────────────────────
+// ─── Daily Snapshot ─────────────────────────────────────────
 
 /**
- * Append a delta to history/YYYY-MM.json.
- * - Creates the history directory if it doesn't exist.
- * - Creates the file with an array if it doesn't exist.
- * - Appends the delta to the existing array.
- * - Idempotent: won't add duplicate deltas for the same date.
+ * Write a daily snapshot to data/YYYY-MM-dd.json.
  */
-export function appendDelta(delta: PriceDelta, dataDir: string): void {
-  const { historyDir } = buildPaths(dataDir);
-  const month = delta.date.slice(0, 7); // YYYY-MM
-  const filePath = path.join(historyDir, `${month}.json`);
-
-  fs.mkdirSync(historyDir, { recursive: true });
-
-  let existing: PriceDelta[] = [];
-
-  if (fs.existsSync(filePath)) {
-    try {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      existing = JSON.parse(content) as PriceDelta[];
-    } catch (err) {
-      console.warn(`[persister] Failed to parse ${filePath}, starting from empty deltas:`, err);
-      existing = [];
-    }
-  }
-
-  // Idempotent: check if delta for this exact date already exists
-  const alreadyExists = existing.some((d) => d.date === delta.date);
-  if (!alreadyExists) {
-    existing.push(delta);
-  }
-
-  // Atomic write with backup/restore
-  atomicWrite(filePath, existing);
+export function writeDailySnapshot(snapshot: PriceSnapshot, dataDir: string): void {
+  const filePath = path.join(dataDir, `${snapshot.date}.json`);
+  fs.mkdirSync(dataDir, { recursive: true });
+  atomicWrite(filePath, snapshot);
 }
 
 /**
- * Read all deltas for a given month (YYYY-MM).
+ * Get the date of the most recent daily snapshot.
  */
-export function readDeltas(month: string, dataDir: string): PriceDelta[] {
-  const { historyDir } = buildPaths(dataDir);
-  const filePath = path.join(historyDir, `${month}.json`);
+export function getLatestSnapshotDate(dataDir: string): string | null {
+  if (!fs.existsSync(dataDir)) return null;
+  
+  const files = fs.readdirSync(dataDir)
+    .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort()
+    .reverse();
+  
+  return files.length > 0 ? files[0].replace('.json', '') : null;
+}
+
+/**
+ * Read a daily snapshot by date.
+ */
+export function readDailySnapshot(date: string, dataDir: string): PriceSnapshot | null {
+  const filePath = path.join(dataDir, `${date}.json`);
 
   if (!fs.existsSync(filePath)) {
-    return [];
+    return null;
   }
 
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
-    return JSON.parse(content) as PriceDelta[];
+    return JSON.parse(content) as PriceSnapshot;
   } catch (err) {
-    console.warn(`[persister] Failed to parse ${filePath}, returning empty deltas:`, err);
-    return [];
+    console.warn(`[persister] Failed to parse ${filePath}, returning null:`, err);
+    return null;
   }
 }

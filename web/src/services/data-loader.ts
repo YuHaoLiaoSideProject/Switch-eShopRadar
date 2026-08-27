@@ -1,7 +1,7 @@
 import type { Game, PriceRecord } from '@/types';
 import type { PriceSnapshot, PriceDelta } from '@eshop/shared';
 
-const BASE_DATA_URL = './data';
+const BASE_DATA_URL = './api';
 const TIMEOUT_MS = 10_000;
 
 // ─── Internal Types (matching crawler output) ───────────────

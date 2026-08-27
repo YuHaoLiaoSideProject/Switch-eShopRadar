@@ -8,6 +8,9 @@
     "web"
   ],
   "scripts": {
+    "build:api": "cp crawler/data/games.json api/ && cp crawler/data/latest.json api/",
+    "build:web": "npm run -w @eshop/web build && cp -r api web/dist/",
+    "build": "npm run build:api && npm run build:web",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint . --ext .ts,.vue",

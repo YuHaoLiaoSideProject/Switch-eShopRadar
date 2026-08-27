@@ -1,6 +1,6 @@
 import { runFetch } from './services/fetcher';
 import { computeDelta } from './services/delta';
-import { writeLatest, readLatest, appendDelta, writeGames, readGames, updateGameScores } from './services/persister';
+import { writeLatest, writeGames, readGames, updateGameScores, writeDailySnapshot, getLatestSnapshotDate, readDailySnapshot } from './services/persister';
 import { toGame } from './adapters/game-catalog';
 import { OpenCriticAdapter } from './adapters/opencritic';
 
@@ -71,23 +71,28 @@ async function main(): Promise<void> {
     console.log('[crawler] No OPENCRITIC_API_KEY — skipping score fetch');
   }
 
-  // Step 4: Compute delta against previous snapshot (if any)
-  const oldSnapshot = readLatest(dataDir);
-  if (oldSnapshot) {
-    const delta = computeDelta(oldSnapshot, snapshot);
-    if (delta.changes.length > 0) {
-      appendDelta(delta, dataDir);
-      console.log(`[crawler] Delta: ${delta.changes.length} change(s) detected`);
-    } else {
-      console.log('[crawler] No changes detected since last run');
-    }
+  // Step 4: Check for changes and save daily snapshot if needed
+  const latestDate = getLatestSnapshotDate(dataDir);
+  if (!latestDate) {
+    // First run - save full snapshot
+    writeDailySnapshot(snapshot, dataDir);
+    console.log(`[crawler] First run — saved baseline ${snapshot.date}.json`);
   } else {
-    console.log('[crawler] No previous snapshot found — first run');
+    const oldSnapshot = readDailySnapshot(latestDate, dataDir);
+    if (oldSnapshot) {
+      const delta = computeDelta(oldSnapshot, snapshot);
+      if (delta.changes.length > 0) {
+        writeDailySnapshot(snapshot, dataDir);
+        console.log(`[crawler] Changes detected — saved ${snapshot.date}.json`);
+      } else {
+        console.log('[crawler] No changes detected since last run');
+      }
+    }
   }
 
-  // Step 5: Write latest snapshot
+  // Step 5: Update latest.json symlink/copy
   writeLatest(snapshot, dataDir);
-  console.log(`[crawler] Snapshot written to ${dataDir}/latest.json`);
+  console.log(`[crawler] Latest snapshot updated`);
 }
 
 main().catch((err) => {
