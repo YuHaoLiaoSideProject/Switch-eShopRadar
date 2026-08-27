@@ -8,7 +8,7 @@
     "web"
   ],
   "scripts": {
-    "build:api": "cp data/games.json api/ && cp data/latest.json api/",
+    "build:api": "mkdir -p api && cp data/games.json api/ && cp data/latest.json api/",
     "build:web": "npm run -w @eshop/web build && cp -r api web/dist/",
     "build": "npm run build:api && npm run build:web",
     "test": "vitest run",
