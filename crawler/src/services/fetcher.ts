@@ -1,7 +1,17 @@
 import type { PriceSnapshot } from '@eshop/shared';
 import { ofetch } from 'ofetch';
 import { TWPriceApi } from '../adapters/price-api';
-import { parseNintendoTWCatalogHtml, type ParsedCatalogEntry } from '../adapters/game-catalog';
+import { parseNintendoCatalogJson, parseNintendoTWCatalogHtml, type ParsedCatalogEntry } from '../adapters/game-catalog';
+
+// ─── Helpers ────────────────────────────────────────────────
+
+/** Get today's date in YYYY-MM-DD format using Taiwan timezone (UTC+8). */
+function getTodayTaiwanDate(): string {
+  const now = new Date();
+  // UTC+8 offset in milliseconds
+  const taiwanTime = new Date(now.getTime() + 8 * 60 * 60 * 1000);
+  return taiwanTime.toISOString().slice(0, 10);
+}
 
 // ─── Types ──────────────────────────────────────────────────
 
@@ -20,26 +30,42 @@ export interface FetchResult {
 // ─── Catalog Fetching ───────────────────────────────────────
 
 /**
- * Fetch the Nintendo TW software catalog HTML and parse NSUIDs from it.
+ * Detect whether URL points to a JSON catalog endpoint.
+ */
+function isJsonUrl(url: string): boolean {
+  return url.endsWith('.json');
+}
+
+/**
+ * Fetch the Nintendo software catalog and parse NSUIDs with titles.
+ * Supports both JSON API endpoints and HTML pages.
  */
 export async function fetchCatalog(url: string): Promise<ParsedCatalogEntry[]> {
   try {
     const response = await ofetch(url, {
       responseType: 'text',
-      headers: { Accept: 'text/html' },
+      headers: {
+        Accept: isJsonUrl(url) ? 'application/json' : 'text/html',
+      },
     });
 
-    const html = String(response);
+    const raw = String(response);
 
-    // Basic HTML content validation
-    const lowerHtml = html.toLowerCase();
+    if (isJsonUrl(url)) {
+      // Parse as JSON catalog
+      const data = JSON.parse(raw);
+      return parseNintendoCatalogJson(data);
+    }
+
+    // Fallback: parse as HTML (legacy support)
+    const lowerHtml = raw.toLowerCase();
     if (!lowerHtml.includes('<html') && !lowerHtml.includes('<body')) {
       throw new Error(
         `Failed to fetch catalog from ${url}: response is not valid HTML (missing <html> or <body> tag)`,
       );
     }
 
-    return parseNintendoTWCatalogHtml(html);
+    return parseNintendoTWCatalogHtml(raw);
   } catch (error) {
     // Re-throw known errors as-is; wrap unknown errors
     if (
@@ -79,7 +105,7 @@ export async function runFetch(config: FetcherConfig): Promise<FetchResult> {
   if (nsuids.length === 0) {
     return {
       snapshot: {
-        date: new Date().toISOString().slice(0, 10),
+        date: getTodayTaiwanDate(),
         prices: [],
       },
       catalog,
@@ -90,10 +116,13 @@ export async function runFetch(config: FetcherConfig): Promise<FetchResult> {
   const adapter = new TWPriceApi(priceApiBaseUrl);
   const allPrices = await adapter.fetchPrices(nsuids, lang);
 
-  // Step 3: Assemble snapshot
+  // Step 3: Filter out games with no price (regularPrice = 0)
+  const validPrices = allPrices.filter((p) => p.regularPrice > 0);
+
+  // Step 4: Assemble snapshot
   const snapshot: PriceSnapshot = {
-    date: new Date().toISOString().slice(0, 10),
-    prices: allPrices,
+    date: getTodayTaiwanDate(),
+    prices: validPrices,
   };
 
   return { snapshot, catalog };

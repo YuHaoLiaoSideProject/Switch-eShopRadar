@@ -7,7 +7,7 @@ import { OpenCriticAdapter } from './adapters/opencritic';
 async function main(): Promise<void> {
   console.log('[crawler] 🎮 Switch eShop Radar crawler started');
 
-  const catalogUrl = process.env.CATALOG_URL ?? 'https://www.nintendo.com/tw/software/switch';
+  const catalogUrl = process.env.CATALOG_URL ?? 'https://www.nintendo.com/tw/data/json/switch_software.json';
   const priceApiBaseUrl = process.env.PRICE_API_URL ?? 'https://api.ec.nintendo.com/v1/price';
   const dataDir = process.env.DATA_DIR ?? '../data';
   const country = process.env.COUNTRY ?? 'TW';
@@ -22,7 +22,7 @@ async function main(): Promise<void> {
     lang,
   });
 
-  console.log(`[crawler] Fetched ${snapshot.prices.length} prices from ${catalog.length} catalog entries`);
+  console.log(`[crawler] Fetched ${snapshot.prices.length} valid prices (filtered from ${catalog.length} catalog entries)`);
 
   // Step 2: Persist game catalog
   const games = catalog.map(toGame);

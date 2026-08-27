@@ -3,7 +3,7 @@ import type { Game } from '@eshop/shared';
 
 // ─── NSUID extraction helpers ───────────────────────────────
 
-const NSUID_REGEX = /\b7001\d{10}\b/g;
+const NSUID_REGEX = /\b700[17]\d{10}\b/g;
 
 export interface ParsedCatalogEntry {
   nsuid: string;
@@ -185,18 +185,29 @@ function sanitizeTitle(raw: string): string {
 function sanitizeNsuid(raw: string): string {
   if (!raw || typeof raw !== 'string') return '';
   const trimmed = raw.trim();
-  return /^7001\d{10}$/.test(trimmed) ? trimmed : '';
+  return /^700[17]\d{10}$/.test(trimmed) ? trimmed : '';
+}
+
+/**
+ * Build a cover image URL from NSUID using Nintendo's CDN.
+ */
+function buildCoverUrl(nsuid: string): string {
+  if (!nsuid) return '';
+  return `https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_${nsuid}.jpg`;
 }
 
 /**
  * Convert ParsedCatalogEntry to Game type with defaults.
  */
 export function toGame(entry: ParsedCatalogEntry): Game {
+  const nsuid = sanitizeNsuid(entry.nsuid);
+  const providedCover = sanitizeCoverUrl(entry.coverUrl ?? '');
+  
   return {
-    id: sanitizeNsuid(entry.nsuid),
+    id: nsuid,
     title: sanitizeTitle(entry.title),
     platform: entry.platform ?? 'switch1',
-    coverUrl: sanitizeCoverUrl(entry.coverUrl ?? ''),
+    coverUrl: providedCover || buildCoverUrl(nsuid),
     releaseDate: entry.releaseDate ?? '',
   };
 }
@@ -205,6 +216,52 @@ export function toGame(entry: ParsedCatalogEntry): Game {
  * Parse raw HTML from the Nintendo TW software page and extract
  * NSUIDs (14-digit numbers starting with 7001) with nearby titles.
  */
+export interface NintendoJsonGame {
+  title: string;
+  link: string;
+  thumb_img: string;
+  release_date: string;
+  platform?: string;
+  [key: string]: unknown;
+}
+
+/**
+ * Parse Nintendo TW/HK JSON catalog and extract NSUIDs with titles.
+ */
+export function parseNintendoCatalogJson(data: unknown): ParsedCatalogEntry[] {
+  if (!Array.isArray(data)) return [];
+
+  const seen = new Set<string>();
+  const entries: ParsedCatalogEntry[] = [];
+
+  for (const item of data) {
+    if (!item || typeof item !== 'object') continue;
+    const game = item as NintendoJsonGame;
+
+    // Extract NSUID from link (e.g., "https://store.nintendo.com.hk/70010000049989")
+    const linkStr = typeof game.link === 'string' ? game.link : '';
+    const nsuidMatch = linkStr.match(/700[17]\d{10}/);
+    if (!nsuidMatch) continue;
+
+    const nsuid = nsuidMatch[0];
+    if (seen.has(nsuid)) continue;
+    seen.add(nsuid);
+
+    const title = typeof game.title === 'string' ? sanitizeTitle(game.title) : '';
+    const coverUrl = typeof game.thumb_img === 'string' ? sanitizeCoverUrl(game.thumb_img) : '';
+    const releaseDate = typeof game.release_date === 'string' ? game.release_date : '';
+
+    entries.push({
+      nsuid,
+      title: title || `Game ${nsuid}`,
+      coverUrl,
+      releaseDate,
+    });
+  }
+
+  return entries;
+}
+
 export function parseNintendoTWCatalogHtml(html: string): ParsedCatalogEntry[] {
   if (typeof html !== 'string') return [];
   if (html.length === 0) return [];
