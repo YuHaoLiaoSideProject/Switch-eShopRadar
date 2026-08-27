@@ -10,9 +10,9 @@ export function useGamePage(
   const prefsStore = usePreferencesStore();
 
   const games = computed(() => {
-  const raw = getGames(gamesStore) as Game[];
-  return prefsStore.filterIgnored(raw);
-});
+    const raw = getGames(gamesStore) as Game[];
+    return prefsStore.filterIgnored(raw);
+  });
   const isEmpty = computed(
     () => !gamesStore.loading && !gamesStore.error && games.value.length === 0,
   );

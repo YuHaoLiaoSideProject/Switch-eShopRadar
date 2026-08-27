@@ -1,37 +1,20 @@
 /**
  * Shared type definitions for Switch eShop Radar.
- * These mirror @eshop/shared types and will be replaced
- * once the shared package is fully established.
+ *
+ * Game and PriceRecord are re-exported from @eshop/shared
+ * to keep a single source of truth. Platform, SalesStatus,
+ * and Preferences are web-specific convenience aliases.
  */
+
+export type { Game, PriceRecord } from '@eshop/shared';
+
+// ─── Web-specific aliases ─────────────────────────────────────
 
 export type Platform = 'switch1' | 'switch2';
 
 export type SalesStatus = 'onsale' | 'preorder' | 'unreleased' | 'not_found';
 
-export interface Game {
-  id: string;
-  title: string;
-  platform: Platform;
-  coverUrl: string;
-  releaseDate: string;
-  rating?: number;
-}
-
-export interface PriceRecord {
-  id: string;
-  amount: number;
-  currency: 'TWD';
-  regularPrice: number;
-  salesStatus: SalesStatus;
-  discountPrice?: number;
-  discountPercent?: number;
-  discountStart?: string;
-  discountEnd?: string;
-  goldPoint?: {
-    basicGiftRate: string;
-    basicGiftGp: string;
-  };
-}
+// ─── Preferences (web-only) ──────────────────────────────────
 
 export interface Preferences {
   ignoreList: string[];

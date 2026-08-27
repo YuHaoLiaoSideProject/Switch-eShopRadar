@@ -1,4 +1,4 @@
-import type { PriceRecord, PriceSnapshot } from '@eshop/shared';
+import type { PriceSnapshot } from '@eshop/shared';
 import { ofetch } from 'ofetch';
 import { TWPriceApi } from '../adapters/price-api';
 import { parseNintendoTWCatalogHtml, type ParsedCatalogEntry } from '../adapters/game-catalog';
@@ -23,8 +23,37 @@ export interface FetchResult {
  * Fetch the Nintendo TW software catalog HTML and parse NSUIDs from it.
  */
 export async function fetchCatalog(url: string): Promise<ParsedCatalogEntry[]> {
-  const html = await ofetch<string>(url, { responseType: 'text' });
-  return parseNintendoTWCatalogHtml(html);
+  try {
+    const response = await ofetch(url, {
+      responseType: 'text',
+      headers: { Accept: 'text/html' },
+    });
+
+    const html = String(response);
+
+    // Basic HTML content validation
+    const lowerHtml = html.toLowerCase();
+    if (!lowerHtml.includes('<html') && !lowerHtml.includes('<body')) {
+      throw new Error(
+        `Failed to fetch catalog from ${url}: response is not valid HTML (missing <html> or <body> tag)`,
+      );
+    }
+
+    return parseNintendoTWCatalogHtml(html);
+  } catch (error) {
+    // Re-throw known errors as-is; wrap unknown errors
+    if (
+      error instanceof Error &&
+      error.message.startsWith('Failed to fetch catalog from')
+    ) {
+      throw error;
+    }
+
+    const reason = error instanceof Error ? error.message : String(error);
+    throw new Error(
+      `Failed to fetch catalog from ${url}: ${reason}`,
+    );
+  }
 }
 
 // ─── Main Orchestration ────────────────────────────────────

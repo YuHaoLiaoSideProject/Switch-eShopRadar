@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, onUnmounted } from 'vue';
 import PillFilter from './PillFilter.vue';
 import type { Platform } from '@/types';
 
@@ -28,14 +29,21 @@ const sortOptions = [
   { value: 'discount', label: '折扣' },
 ];
 
-let debounceTimer: ReturnType<typeof setTimeout> | null = null;
+const debounceTimer = ref<ReturnType<typeof setTimeout> | null>(null);
 
 function debouncedSearch(value: string) {
-  if (debounceTimer) clearTimeout(debounceTimer);
-  debounceTimer = setTimeout(() => {
+  if (debounceTimer.value) clearTimeout(debounceTimer.value);
+  debounceTimer.value = setTimeout(() => {
     emit('update:searchQuery', value);
   }, 300);
 }
+
+onUnmounted(() => {
+  if (debounceTimer.value) {
+    clearTimeout(debounceTimer.value);
+    debounceTimer.value = null;
+  }
+});
 </script>
 
 <template>

@@ -4,8 +4,9 @@ import { parsePriceEntry, chunkArray, type NintendoPriceEntry } from '../price-a
 // ─── Helpers ────────────────────────────────────────────────
 
 function makeEntry(overrides: Partial<NintendoPriceEntry> & { title_id: number }): NintendoPriceEntry {
+  const { title_id, ...rest } = overrides;
   return {
-    title_id: overrides.title_id,
+    title_id,
     sales_status: 'onsale',
     regular_price: {
       amount: 'TWD 1790',
@@ -14,7 +15,7 @@ function makeEntry(overrides: Partial<NintendoPriceEntry> & { title_id: number }
     },
     discount_price: null,
     gold_point: null,
-    ...overrides,
+    ...rest,
   };
 }
 

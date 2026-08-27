@@ -111,7 +111,7 @@ export function chunkArray<T>(arr: T[], size: number): T[][] {
  */
 function getHttpStatus(err: Error): number | undefined {
   // ofetch FetchError exposes .status and .response?.status
-  const anyErr = err as Record<string, unknown>;
+  const anyErr = err as unknown as Record<string, unknown>;
   if (typeof anyErr.status === 'number') return anyErr.status as number;
   const resp = anyErr.response as { status?: number } | undefined;
   if (resp && typeof resp.status === 'number') return resp.status;

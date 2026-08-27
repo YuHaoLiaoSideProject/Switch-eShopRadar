@@ -1,0 +1,72 @@
+name: Deploy — GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時只允許一個部署，跳過併發的部署任務
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Copy data to web/public
+        run: |
+          mkdir -p web/public/data
+          if [ -d data ]; then
+            cp -r data/* web/public/data/ || true
+            echo "Data copied to web/public/data/"
+          else
+            echo "No data directory found — web will run without data"
+            # 建立空的 placeholder 避免 404
+            echo '[]' > web/public/data/games.json
+            echo '{"date":"","prices":[]}' > web/public/data/latest.json
+          fi
+
+      - name: Type check
+        run: npm run -w @eshop/web typecheck
+
+      - name: Build web
+        run: npm run -w @eshop/web build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    name: Deploy to Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

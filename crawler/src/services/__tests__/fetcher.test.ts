@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { chunkArray, BATCH_SIZE } from '../../adapters/price-api';
 
 // ─── Mock ofetch ────────────────────────────────────────────
@@ -13,7 +13,6 @@ vi.mock('ofetch', () => ({
 import { fetchCatalog, runFetch } from '../fetcher';
 import { fetchPriceBatch } from '../../adapters/price-api';
 import type { NintendoPriceApiResponse } from '../../adapters/price-api';
-import type { PriceRecord } from '@eshop/shared';
 
 // ─── Helpers ────────────────────────────────────────────────
 
