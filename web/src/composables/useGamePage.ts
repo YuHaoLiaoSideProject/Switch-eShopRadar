@@ -1,4 +1,4 @@
-import { computed, onMounted } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 import { useGamesStore } from '@/stores/games';
 import { usePreferencesStore } from '@/stores/preferences';
 import type { Game } from '@/types';
@@ -8,9 +8,13 @@ export function useGamePage(
 ) {
   const gamesStore = useGamesStore();
   const prefsStore = usePreferencesStore();
+  const showIgnored = ref(false);
 
   const games = computed(() => {
     const raw = getGames(gamesStore) as Game[];
+    if (showIgnored.value) {
+      return raw;
+    }
     return prefsStore.filterIgnored(raw);
   });
   const isEmpty = computed(
@@ -43,11 +47,17 @@ export function useGamePage(
     }
   }
 
+  function toggleShowIgnored() {
+    showIgnored.value = !showIgnored.value;
+  }
+
   return {
     gamesStore,
     prefsStore,
     games,
     isEmpty,
+    showIgnored,
+    toggleShowIgnored,
     handleRetry,
     handleToggleIgnore,
     handleToggleWishlist,

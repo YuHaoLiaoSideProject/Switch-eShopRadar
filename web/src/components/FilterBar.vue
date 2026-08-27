@@ -7,14 +7,20 @@ interface Props {
   platformFilter: Platform | 'all';
   searchQuery: string;
   sortBy: 'title' | 'price' | 'discount';
+  showIgnored?: boolean;
+  ignoredCount?: number;
 }
 
-defineProps<Props>();
+withDefaults(defineProps<Props>(), {
+  showIgnored: false,
+  ignoredCount: 0,
+});
 
 const emit = defineEmits<{
   (e: 'update:platformFilter', value: Platform | 'all'): void;
   (e: 'update:searchQuery', value: string): void;
   (e: 'update:sortBy', value: 'title' | 'price' | 'discount'): void;
+  (e: 'update:showIgnored', value: boolean): void;
 }>();
 
 const platformOptions = [
@@ -104,6 +110,24 @@ onUnmounted(() => {
         name="sort"
         @update:model-value="emit('update:sortBy', $event as 'title' | 'price' | 'discount')"
       />
+    </div>
+
+    <!-- Show ignored toggle -->
+    <div v-if="ignoredCount > 0" class="filter-bar__group">
+      <button
+        class="toggle-ignored-btn"
+        :class="{ 'toggle-ignored-btn--active': showIgnored }"
+        @click="emit('update:showIgnored', !showIgnored)"
+        :aria-pressed="showIgnored"
+        aria-label="顯示已隱藏遊戲"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 7C14.76 7 17 8.79 18.61 10.81L20.08 9.34C18.11 7.04 15.22 5.5 12 5.5C8.78 5.5 5.89 7.04 3.92 9.34L5.39 10.81C7 8.79 9.24 7 12 7ZM12 16C10.34 16 9 14.66 9 13C9 12.54 9.12 12.1 9.34 11.72L12.28 14.66C12.1 14.88 12 15.11 12 15.42C12 15.78 12.22 16 12 16Z" />
+          <path d="M2 4.27L4.28 6.55L4.73 7C3.08 8.3 1.79 9.9 1 11.76C2.73 15.36 6.32 18.5 12 18.5C13.55 18.5 15.03 18.21 16.38 17.71L16.69 18.02L19.73 21.07L21 19.8L3.27 2.07L2 4.27ZM12 16.34C7.69 16.34 4.47 13.36 3.42 9.76C3.96 7.93 5.37 6.35 7.53 7.8L9.24 9.51C9.09 10 9 10.49 9 11C9 12.66 10.34 14 12 14C12.51 14 13 13.91 13.5 13.76L15.21 15.47C14.21 16.04 13.13 16.34 12 16.34Z" />
+        </svg>
+        <span>隱藏遊戲</span>
+        <span class="toggle-ignored-btn__count">{{ ignoredCount }}</span>
+      </button>
     </div>
   </div>
 </template>
@@ -206,6 +230,66 @@ onUnmounted(() => {
 /* ── Filter groups ── */
 .filter-bar__group {
   flex-shrink: 0;
+}
+
+/* ── Toggle ignored button ── */
+.toggle-ignored-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gap-xs);
+  height: var(--h);
+  padding: 0 var(--gap-md);
+  font-size: var(--fs);
+  font-weight: 500;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition:
+    background var(--transition),
+    color var(--transition),
+    border-color var(--transition);
+  white-space: nowrap;
+}
+
+.toggle-ignored-btn:hover {
+  background: var(--border);
+}
+
+.toggle-ignored-btn--active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.toggle-ignored-btn--active:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.toggle-ignored-btn__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.toggle-ignored-btn--active .toggle-ignored-btn__count {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 767px) {
+  .toggle-ignored-btn {
+    height: var(--h-mobile);
+    font-size: var(--fs-lg);
+  }
 }
 
 /* ── Mobile RWD ≤767 ── */

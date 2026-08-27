@@ -1,10 +1,49 @@
 <script setup lang="ts">
 import GameCard from '@/components/GameCard.vue';
 import GameGrid from '@/components/GameGrid.vue';
+import FilterBar from '@/components/FilterBar.vue';
 import { useGamePage } from '@/composables/useGamePage';
+import { ref, computed } from 'vue';
+import type { Platform } from '@/types';
 
-const { gamesStore, prefsStore, games, isEmpty, handleRetry, handleToggleIgnore, handleToggleWishlist } =
-  useGamePage((s) => s.newReleases);
+const {
+  gamesStore, prefsStore, games, isEmpty,
+  showIgnored, toggleShowIgnored,
+  handleRetry, handleToggleIgnore, handleToggleWishlist,
+} = useGamePage((s) => s.newReleases);
+
+const platformFilter = ref<Platform | 'all'>('all');
+const searchQuery = ref('');
+const sortBy = ref<'title' | 'price' | 'discount'>('title');
+
+const filteredGames = computed(() => {
+  let result = games.value;
+  if (platformFilter.value !== 'all') {
+    result = result.filter((g) => g.platform === platformFilter.value);
+  }
+  if (searchQuery.value) {
+    const q = searchQuery.value.toLowerCase();
+    result = result.filter((g) => g.title.toLowerCase().includes(q));
+  }
+  if (sortBy.value === 'price') {
+    result = [...result].sort((a, b) => {
+      const pa = gamesStore.getPrice(a.id)?.discountPrice ?? gamesStore.getPrice(a.id)?.amount ?? 0;
+      const pb = gamesStore.getPrice(b.id)?.discountPrice ?? gamesStore.getPrice(b.id)?.amount ?? 0;
+      return pa - pb;
+    });
+  } else if (sortBy.value === 'discount') {
+    result = [...result].sort((a, b) => {
+      const pa = gamesStore.getPrice(a.id);
+      const pb = gamesStore.getPrice(b.id);
+      const da = pa?.discountPrice && pa?.regularPrice ? (pa.regularPrice - pa.discountPrice) / pa.regularPrice : 0;
+      const db = pb?.discountPrice && pb?.regularPrice ? (pb.regularPrice - pb.discountPrice) / pb.regularPrice : 0;
+      return db - da;
+    });
+  } else {
+    result = [...result].sort((a, b) => a.title.localeCompare(b.title));
+  }
+  return result;
+});
 </script>
 
 <template>
@@ -12,15 +51,24 @@ const { gamesStore, prefsStore, games, isEmpty, handleRetry, handleToggleIgnore,
     <h2>🆕 新發售</h2>
     <p class="subtitle">近 3 個月內發售的新遊戲</p>
 
+    <FilterBar
+      v-model:platform-filter="platformFilter"
+      v-model:search-query="searchQuery"
+      v-model:sort-by="sortBy"
+      :show-ignored="showIgnored"
+      :ignored-count="prefsStore.ignoredCount"
+      @update:show-ignored="toggleShowIgnored"
+    />
+
     <GameGrid
       :loading="gamesStore.loading"
       :error="gamesStore.error"
-      :empty="isEmpty"
+      :empty="filteredGames.length === 0"
       empty-message="暫無新發售遊戲資料"
       @retry="handleRetry"
     >
       <GameCard
-        v-for="game in games"
+        v-for="game in filteredGames"
         :key="game.id"
         :game="game"
         :price="gamesStore.getPrice(game.id)"
