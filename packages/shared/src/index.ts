@@ -1,3 +1,10 @@
+// ─── Discount Utility ──────────────────────────────────────────
+
+export function computeDiscountPercent(regularPrice: number, discountPrice: number): number {
+  if (regularPrice === 0) return 0;
+  return Math.round(((regularPrice - discountPrice) / regularPrice) * 100);
+}
+
 // ─── Game Catalog Types ───────────────────────────────────────
 
 export interface Game {
@@ -13,8 +20,11 @@ export interface Game {
 
 export interface PriceRecord {
   id: string;
-  amount: number; // TWD raw_value
+  /** 當前售價（TWD raw_value，如 1790 = NT$1790）*/
+  amount: number;
+  /** 幣別，目前僅支援 TWD */
   currency: 'TWD';
+  /** 原價（TWD raw_value）*/
   regularPrice: number;
   discountPrice?: number;
   discountPercent?: number;

@@ -27,6 +27,15 @@ const sortOptions = [
   { value: 'price', label: '價格' },
   { value: 'discount', label: '折扣' },
 ];
+
+let debounceTimer: ReturnType<typeof setTimeout> | null = null;
+
+function debouncedSearch(value: string) {
+  if (debounceTimer) clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    emit('update:searchQuery', value);
+  }, 300);
+}
 </script>
 
 <template>
@@ -56,7 +65,7 @@ const sortOptions = [
           placeholder="搜尋遊戲..."
           :value="searchQuery"
           class="search-input"
-          @input="emit('update:searchQuery', ($event.target as HTMLInputElement).value)"
+          @input="debouncedSearch(($event.target as HTMLInputElement).value)"
         />
         <button
           v-if="searchQuery"

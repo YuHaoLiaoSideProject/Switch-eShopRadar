@@ -59,6 +59,29 @@ describe('Shared type definitions', () => {
     expect(game.id).toBe('70010000000186');
   });
 
+  it('should reject invalid platform value', () => {
+    // @ts-expect-error — 'switch3' is not a valid platform
+    const invalid: Game = {
+      id: '1',
+      title: 'x',
+      platform: 'switch3',
+      coverUrl: '',
+      releaseDate: ''
+    };
+  });
+
+  it('should reject invalid salesStatus value', () => {
+    const invalidStatus = 'unavailable' as const;
+    // @ts-expect-error — invalid salesStatus not assignable to PriceRecord['salesStatus']
+    const price: PriceRecord = {
+      id: '1',
+      amount: 100,
+      currency: 'TWD',
+      regularPrice: 100,
+      salesStatus: invalidStatus,
+    };
+  });
+
   it('should construct a valid PriceRecord literal', () => {
     const price: PriceRecord = {
       id: '70010000000186',

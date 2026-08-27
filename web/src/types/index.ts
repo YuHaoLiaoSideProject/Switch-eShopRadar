@@ -6,7 +6,7 @@
 
 export type Platform = 'switch1' | 'switch2';
 
-export type SalesStatus = 'onsale' | 'preorder' | 'unreleased' | 'unavailable';
+export type SalesStatus = 'onsale' | 'preorder' | 'unreleased' | 'not_found';
 
 export interface Game {
   id: string;
@@ -14,24 +14,26 @@ export interface Game {
   platform: Platform;
   coverUrl: string;
   releaseDate: string;
+  rating?: number;
 }
 
 export interface PriceRecord {
   id: string;
   amount: number;
-  currency: string;
+  currency: 'TWD';
   regularPrice: number;
   salesStatus: SalesStatus;
   discountPrice?: number;
+  discountPercent?: number;
   discountStart?: string;
   discountEnd?: string;
+  goldPoint?: {
+    basicGiftRate: string;
+    basicGiftGp: string;
+  };
 }
 
 export interface Preferences {
   ignoreList: string[];
   wishlist: string[];
-}
-
-export interface GameWithPrice extends Game {
-  price: PriceRecord | null;
 }

@@ -1,4 +1,4 @@
-import { ref, watch, nextTick } from 'vue';
+import { ref, watch, onScopeDispose } from 'vue';
 
 /**
  * Composable for reactive localStorage with JSON serialization.
@@ -44,6 +44,12 @@ export function useLocalStorage<T>(key: string, defaultValue: T) {
   if (typeof window !== 'undefined') {
     window.addEventListener('storage', onStorageChange);
   }
+
+  onScopeDispose(() => {
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('storage', onStorageChange);
+    }
+  });
 
   return {
     value: data,

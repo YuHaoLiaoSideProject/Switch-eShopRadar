@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Game, PriceRecord } from '@/types';
+import { computeDiscountPercent } from '@eshop/shared';
 import StarIcon from './icons/StarIcon.vue';
 import EyeSlashIcon from './icons/EyeSlashIcon.vue';
 
@@ -24,12 +25,12 @@ function formatPrice(amount: number): string {
   return `NT$${amount.toLocaleString()}`;
 }
 
-function getDiscountPercent(): number {
+import { computed } from 'vue';
+
+const discountPercent = computed(() => {
   if (!props.price?.discountPrice || !props.price.regularPrice) return 0;
-  return Math.round(
-    ((props.price.regularPrice - props.price.discountPrice) / props.price.regularPrice) * 100,
-  );
-}
+  return computeDiscountPercent(props.price.regularPrice, props.price.discountPrice);
+});
 
 function getPlatformLabel(platform: string): string {
   return platform === 'switch2' ? 'Switch 2' : 'Switch';
@@ -43,7 +44,7 @@ function getPlatformLabel(platform: string): string {
         :src="game.coverUrl"
         :alt="game.title"
         loading="lazy"
-        @error="($event.target as HTMLImageElement).src = 'https://via.placeholder.com/300x400?text=No+Cover'"
+        @error="($event.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27300%27 height=%27400%27%3E%3Crect fill=%27%23e0e0e0%27 width=%27300%27 height=%27400%27/%3E%3Ctext x=%27150%27 y=%27200%27 text-anchor=%27middle%27 fill=%27%23999%27 font-size=%2714%27%3ENo Cover%3C/text%3E%3C/svg%3E'"
       />
       <span class="game-card__platform">{{ getPlatformLabel(game.platform) }}</span>
     </div>
@@ -53,14 +54,14 @@ function getPlatformLabel(platform: string): string {
         <h3 class="game-card__title">{{ game.title }}</h3>
 
         <div v-if="price" class="game-card__pricing">
-          <span v-if="getDiscountPercent() > 0" data-testid="discount-badge" class="game-card__discount">
-            -{{ getDiscountPercent() }}%
+          <span v-if="discountPercent > 0" data-testid="discount-badge" class="game-card__discount">
+            -{{ discountPercent }}%
           </span>
           <span class="game-card__current-price">
             {{ formatPrice(price.discountPrice ?? price.amount) }}
           </span>
           <span
-            v-if="getDiscountPercent() > 0"
+            v-if="discountPercent > 0"
             data-testid="original-price"
             class="game-card__original-price"
           >

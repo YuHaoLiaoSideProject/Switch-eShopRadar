@@ -1,11 +1,4 @@
-import type { Game } from '@eshop/shared';
 import * as cheerio from 'cheerio';
-
-// ─── Adapter Interface ──────────────────────────────────────
-
-export interface GameCatalogAdapter {
-  fetchCatalog(platform?: 'switch1' | 'switch2'): Promise<Game[]>;
-}
 
 // ─── NSUID extraction helpers ───────────────────────────────
 
@@ -95,18 +88,4 @@ export function parseNintendoTWCatalogHtml(html: string): ParsedCatalogEntry[] {
   return entries;
 }
 
-// ─── TW Catalog Adapter (real API) ─────────────────────────
 
-export class NintendoTWCatalog implements GameCatalogAdapter {
-  private readonly catalogUrl: string;
-
-  constructor(catalogUrl: string = 'https://www.nintendo.com/tw/software/switch') {
-    this.catalogUrl = catalogUrl;
-  }
-
-  async fetchCatalog(_platform: 'switch1' | 'switch2' = 'switch1'): Promise<Game[]> {
-    // Will be implemented in fetcher.ts orchestration using ofetch
-    // This adapter just does the HTML parsing
-    throw new Error('Use parseNintendoTWCatalogHtml for HTML parsing; fetchCatalog is orchestrated by fetcher');
-  }
-}

@@ -27,7 +27,7 @@ defineEmits<{ (e: 'retry'): void }>();
         <circle cx="12" cy="16" r="1" fill="currentColor" />
       </svg>
       <p class="error-message">載入失敗：{{ error }}</p>
-      <RetryButton @retry="$emit('retry')" />
+      <RetryButton :loading="loading" @retry="$emit('retry')" />
     </div>
 
     <!-- Empty state -->

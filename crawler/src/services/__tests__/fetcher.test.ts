@@ -10,7 +10,8 @@ vi.mock('ofetch', () => ({
 
 // ─── Imports after mocks ────────────────────────────────────
 
-import { fetchPriceBatch, fetchCatalog, runFetch } from '../fetcher';
+import { fetchCatalog, runFetch } from '../fetcher';
+import { fetchPriceBatch } from '../../adapters/price-api';
 import type { NintendoPriceApiResponse } from '../../adapters/price-api';
 import type { PriceRecord } from '@eshop/shared';
 

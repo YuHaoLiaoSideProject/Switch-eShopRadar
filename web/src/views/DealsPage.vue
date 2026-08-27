@@ -1,42 +1,10 @@
 <script setup lang="ts">
-import { computed } from 'vue';
 import GameCard from '@/components/GameCard.vue';
 import GameGrid from '@/components/GameGrid.vue';
-import { useGamesStore } from '@/stores/games';
-import { usePreferencesStore } from '@/stores/preferences';
-import { onMounted } from 'vue';
+import { useGamePage } from '@/composables/useGamePage';
 
-const gamesStore = useGamesStore();
-const prefsStore = usePreferencesStore();
-
-const games = computed(() => gamesStore.dealsGames);
-const isEmpty = computed(() => !gamesStore.loading && !gamesStore.error && games.value.length === 0);
-
-onMounted(() => {
-  if (gamesStore.games.length === 0) {
-    gamesStore.fetchGames();
-  }
-});
-
-function handleRetry() {
-  gamesStore.fetchGames();
-}
-
-function handleToggleIgnore(gameId: string) {
-  if (prefsStore.isIgnored(gameId)) {
-    prefsStore.removeFromIgnoreList(gameId);
-  } else {
-    prefsStore.addToIgnoreList(gameId);
-  }
-}
-
-function handleToggleWishlist(gameId: string) {
-  if (prefsStore.isWishlisted(gameId)) {
-    prefsStore.removeFromWishlist(gameId);
-  } else {
-    prefsStore.addToWishlist(gameId);
-  }
-}
+const { gamesStore, prefsStore, games, isEmpty, handleRetry, handleToggleIgnore, handleToggleWishlist } =
+  useGamePage((s) => s.dealsGames);
 </script>
 
 <template>

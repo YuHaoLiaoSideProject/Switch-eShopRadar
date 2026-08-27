@@ -1,4 +1,4 @@
-import type { PriceRecord } from '@eshop/shared';
+import { type PriceRecord, computeDiscountPercent } from '@eshop/shared';
 import { ofetch } from 'ofetch';
 
 // ─── Adapter Interface ──────────────────────────────────────
@@ -49,6 +49,8 @@ const RATE_LIMIT_DELAY_MS = 200;
 
 // ─── Parser ─────────────────────────────────────────────────
 
+const VALID_STATUSES = ['onsale', 'preorder', 'unreleased', 'not_found'] as const;
+
 /**
  * Parse a single Nintendo price entry from the real API format into our PriceRecord.
  */
@@ -59,10 +61,11 @@ export function parsePriceEntry(entry: NintendoPriceEntry): PriceRecord {
   const hasDiscount = discountRaw !== undefined && discountRaw > 0 && discountRaw < regularPrice;
 
   // Calculate discount percent from prices
-  let discountPercent: number | undefined;
-  if (hasDiscount && regularPrice > 0) {
-    discountPercent = Math.round(((regularPrice - discountRaw!) / regularPrice) * 100);
-  }
+  const discountPercent = hasDiscount ? computeDiscountPercent(regularPrice, discountRaw!) : undefined;
+
+  const salesStatus = VALID_STATUSES.includes(entry.sales_status as (typeof VALID_STATUSES)[number])
+    ? (entry.sales_status as PriceRecord['salesStatus'])
+    : 'not_found';
 
   return {
     id: nsuid,
@@ -73,7 +76,7 @@ export function parsePriceEntry(entry: NintendoPriceEntry): PriceRecord {
     discountPercent,
     discountStart: entry.discount_price?.start_datetime,
     discountEnd: entry.discount_price?.end_datetime,
-    salesStatus: entry.sales_status as PriceRecord['salesStatus'],
+    salesStatus,
     goldPoint: entry.gold_point
       ? {
           basicGiftRate: entry.gold_point.basic_gift_rate,
@@ -103,21 +106,37 @@ export function chunkArray<T>(arr: T[], size: number): T[][] {
 }
 
 /**
+ * Extract HTTP status code from an error, trying ofetch FetchError properties
+ * first, then falling back to regex matching on the message.
+ */
+function getHttpStatus(err: Error): number | undefined {
+  // ofetch FetchError exposes .status and .response?.status
+  const anyErr = err as Record<string, unknown>;
+  if (typeof anyErr.status === 'number') return anyErr.status as number;
+  const resp = anyErr.response as { status?: number } | undefined;
+  if (resp && typeof resp.status === 'number') return resp.status;
+
+  // Fallback: regex for 3-digit HTTP status codes in the message
+  const match = err.message.match(/\b([45]\d{2})\b/);
+  return match ? parseInt(match[1], 10) : undefined;
+}
+
+/**
  * Fetch prices for a batch of NSUIDs from the Nintendo Price API.
  * Includes retry logic for transient failures and rate limiting.
  */
 export async function fetchPriceBatch(
   nsuids: string[],
   baseUrl: string,
-  options: { country?: string; lang?: string } = {},
+  options: { country?: string; lang?: string; retries?: number } = {},
 ): Promise<PriceRecord[]> {
-  const { country = 'TW', lang = 'zh' } = options;
+  const { country = 'TW', lang = 'zh', retries = RETRY_ATTEMPTS } = options;
   const idsParam = nsuids.join(',');
   const url = `${baseUrl}?country=${country}&lang=${lang}&ids=${idsParam}`;
 
   let lastError: Error | undefined;
 
-  for (let attempt = 1; attempt <= RETRY_ATTEMPTS; attempt++) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       const response = await ofetch<NintendoPriceApiResponse>(url);
 
@@ -129,12 +148,13 @@ export async function fetchPriceBatch(
     } catch (err) {
       lastError = err instanceof Error ? err : new Error(String(err));
 
-      // Don't retry on client errors (4xx except 429)
-      if (lastError.message.includes('4004') || lastError.message.includes('400')) {
+      // Don't retry on client errors (4xx except 429 rate limit)
+      const status = getHttpStatus(lastError);
+      if (status !== undefined && status >= 400 && status < 500 && status !== 429) {
         throw lastError;
       }
 
-      if (attempt < RETRY_ATTEMPTS) {
+      if (attempt < retries) {
         await sleep(RETRY_DELAY_MS * attempt);
       }
     }

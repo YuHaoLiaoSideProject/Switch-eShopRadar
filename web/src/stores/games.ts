@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
 import { loadGames, loadLatestPrices } from '@/services/data-loader';
+import { computeDiscountPercent } from '@eshop/shared';
 import type { Game, PriceRecord, Platform } from '@/types';
 
 export const useGamesStore = defineStore('games', () => {
@@ -63,12 +64,9 @@ export const useGamesStore = defineStore('games', () => {
 
   const dealsGames = computed(() => {
     // All discounted games sorted by discount percentage
-    return [...games.value]
-      .filter((g) => getDiscountPercent(g.id) > 0)
-      .map((g) => ({
-        ...g,
-        discountPercent: getDiscountPercent(g.id),
-      }))
+    return games.value
+      .map((g) => ({ ...g, discountPercent: getDiscountPercent(g.id) }))
+      .filter((g) => g.discountPercent > 0)
       .sort((a, b) => b.discountPercent - a.discountPercent);
   });
 
@@ -83,7 +81,7 @@ export const useGamesStore = defineStore('games', () => {
   function getDiscountPercent(gameId: string): number {
     const price = prices.value.get(gameId);
     if (!price || !price.discountPrice || price.regularPrice === 0) return 0;
-    return Math.round(((price.regularPrice - price.discountPrice) / price.regularPrice) * 100);
+    return computeDiscountPercent(price.regularPrice, price.discountPrice);
   }
 
   function getPrice(gameId: string): PriceRecord | null {

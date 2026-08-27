@@ -64,6 +64,7 @@ function isSamePrice(
   return (
     a.id === b.id &&
     a.amount === b.amount &&
+    a.currency === b.currency &&
     a.regularPrice === b.regularPrice &&
     a.discountPrice === b.discountPrice &&
     a.discountPercent === b.discountPercent &&

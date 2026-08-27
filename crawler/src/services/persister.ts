@@ -84,7 +84,18 @@ export function appendDelta(delta: PriceDelta, dataDir: string): void {
     existing.push(delta);
   }
 
-  fs.writeFileSync(filePath, JSON.stringify(existing, null, 2), 'utf-8');
+  // Atomic write: write to tmp file then rename
+  const tmpPath = `${filePath}.tmp`;
+  try {
+    fs.writeFileSync(tmpPath, JSON.stringify(existing, null, 2), 'utf-8');
+    fs.renameSync(tmpPath, filePath);
+  } catch (err) {
+    // Clean up tmp file on failure
+    try {
+      if (fs.existsSync(tmpPath)) fs.unlinkSync(tmpPath);
+    } catch { /* ignore cleanup errors */ }
+    throw err;
+  }
 }
 
 /**
