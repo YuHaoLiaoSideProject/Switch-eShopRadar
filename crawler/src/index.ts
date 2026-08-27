@@ -9,7 +9,7 @@ async function main(): Promise<void> {
 
   const catalogUrl = process.env.CATALOG_URL ?? 'https://www.nintendo.com/tw/software/switch';
   const priceApiBaseUrl = process.env.PRICE_API_URL ?? 'https://api.ec.nintendo.com/v1/price';
-  const dataDir = process.env.DATA_DIR ?? './data';
+  const dataDir = process.env.DATA_DIR ?? '../data';
   const country = process.env.COUNTRY ?? 'TW';
   const lang = process.env.LANG ?? 'zh';
   const openCriticKey = process.env.OPENCRITIC_API_KEY;
