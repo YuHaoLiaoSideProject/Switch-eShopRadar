@@ -193,7 +193,7 @@ function sanitizeNsuid(raw: string): string {
  */
 function buildCoverUrl(nsuid: string): string {
   if (!nsuid) return '';
-  return `https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_${nsuid}.jpg`;
+  return `https://store.nintendo.com.hk/media/catalog/product/${nsuid}.jpg`;
 }
 
 /**

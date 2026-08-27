@@ -1,625 +1,4125 @@
 [
   {
+    "id": "70070000014946",
+    "title": "《刀劍神域 彼岸遊境》豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014946.jpg",
+    "releaseDate": "2022.9.29"
+  },
+  {
+    "id": "70010000033408",
+    "title": "《伊蘇：始源 (Ys Origin)》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033408.jpg",
+    "releaseDate": "2020.10.1"
+  },
+  {
+    "id": "70010000030631",
+    "title": "《曲途》（No Straight Roads）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030631.jpg",
+    "releaseDate": "2020.8.25"
+  },
+  {
+    "id": "70010000020986",
+    "title": "《巫師 3：狂獵》－完全版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020986.jpg",
+    "releaseDate": "2019.10.15"
+  },
+  {
+    "id": "70010000010683",
+    "title": "《刺客教條 III 重製版》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010683.jpg",
+    "releaseDate": "2019.5.23"
+  },
+  {
+    "id": "70010000034687",
+    "title": "《芬尼克斯傳說》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034687.jpg",
+    "releaseDate": "2020.12.3"
+  },
+  {
+    "id": "70070000015153",
+    "title": "《哆啦A夢 牧場物語 自然王國與和樂家人》數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000015153.jpg",
+    "releaseDate": "2022.11.2"
+  },
+  {
+    "id": "70070000012608",
+    "title": "《席德·梅爾的文明帝國VI 白金版》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012608.jpg",
+    "releaseDate": "2021.7.27"
+  },
+  {
+    "id": "70010000015870",
+    "title": "《特技摩托賽：崛起》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015870.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70070000008241",
+    "title": "《鬥陣特攻》傳奇版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000008241.jpg",
+    "releaseDate": "2019.10.16"
+  },
+  {
+    "id": "70010000011484",
+    "title": "《傳奇小釣手》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011484.jpg",
+    "releaseDate": "2018.9.18"
+  },
+  {
+    "id": "70010000029277",
+    "title": "《極速快感™超熱力追緝》重製版 (Need for Speed™ Hot Pursuit Remastered)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029277.jpg",
+    "releaseDate": "2020.11.13"
+  },
+  {
+    "id": "70070000014600",
+    "title": "《瑪利歐 ＋ 瘋狂兔子 希望之星》- 黃金版（MARIO + RABBIDS SPARKS OF HOPE GOLD EDITION）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014600.jpg",
+    "releaseDate": "2022.10.20"
+  },
+  {
+    "id": "70010000054005",
+    "title": "《瑪利歐 ＋ 瘋狂兔子 希望之星》(MARIO + RABBIDS SPARKS OF HOPE)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000054005.jpg",
+    "releaseDate": "2022.10.20"
+  },
+  {
+    "id": "70010000017903",
+    "title": "《銀河聯軍：阿特拉斯之戰》- 數位標準版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017903.jpg",
+    "releaseDate": "2019.6.6"
+  },
+  {
+    "id": "70010000027022",
+    "title": "《橫衝直撞：狂飆樂園》重製版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027022.jpg",
+    "releaseDate": "2020.6.18"
+  },
+  {
+    "id": "70010000040285",
+    "title": "《Just Dance 舞力全開 2022》 - Just Dance 2022",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000040285.jpg",
+    "releaseDate": "2021.11.4"
+  },
+  {
+    "id": "70010000030342",
+    "title": "《NBA 2K21》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030342.jpg",
+    "releaseDate": "2020.9.4"
+  },
+  {
+    "id": "70010000041052",
+    "title": "《NBA 2K22》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000041052.jpg",
+    "releaseDate": "2021.9.10"
+  },
+  {
+    "id": "70070000012800",
+    "title": "《NBA 2K22》NBA 75週年紀念版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012800.jpg",
+    "releaseDate": "2021.9.10"
+  },
+  {
+    "id": "70010000013033",
+    "title": "【體驗版】太鼓之達人 Nintendo Switch版！",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013033.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000009374",
+    "title": "1-2-Switch",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009374.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000009567",
+    "title": "2020東京奧運 The Official Video Game™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009567.jpg",
+    "releaseDate": "2019.7.24"
+  },
+  {
+    "id": "70010000035340",
+    "title": "七龍珠Z 卡卡洛特 + 新覺醒篇",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035340.jpg",
+    "releaseDate": "2021.9.22"
+  },
+  {
+    "id": "70070000012846",
+    "title": "七龍珠Z 卡卡洛特 + 新覺醒篇 數位終極版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012846.jpg",
+    "releaseDate": "2021.9.22"
+  },
+  {
+    "id": "70070000012845",
+    "title": "七龍珠Z 卡卡洛特 + 新覺醒篇 數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012845.jpg",
+    "releaseDate": "2021.9.22"
+  },
+  {
+    "id": "70010000036147",
+    "title": "刀劍神域 彼岸遊境",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000036147.jpg",
+    "releaseDate": "2022.9.29"
+  },
+  {
+    "id": "70010000011357",
+    "title": "刀劍神域 虛空幻界 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011357.jpg",
+    "releaseDate": "2019.4.25"
+  },
+  {
+    "id": "70010000014621",
+    "title": "刀劍神域 奪命凶彈 完全版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014621.jpg",
+    "releaseDate": "2019.8.8"
+  },
+  {
+    "id": "70070000009301",
+    "title": "三國志13 with 威力加強版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000009301.jpg",
+    "releaseDate": "2019.11.28"
+  },
+  {
+    "id": "70010000033861",
+    "title": "三國志14 with 威力加強版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033861.jpg",
+    "releaseDate": "2020.12.10"
+  },
+  {
+    "id": "70010000027085",
+    "title": "女神異聞錄５ 亂戰：魅影攻手",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027085.jpg",
+    "releaseDate": "2020.6.18"
+  },
+  {
+    "id": "70010000018237",
+    "title": "小小伙伴 -狗狗&貓貓-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018237.jpg",
+    "releaseDate": "2019.4.25"
+  },
+  {
+    "id": "70010000021687",
+    "title": "小小夢魘2 (Little Nightmares II)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021687.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000051457",
+    "title": "小林家的龍女僕 炸裂!! 呆萌龍☆吐息",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000051457.jpg",
+    "releaseDate": "2022.8.4"
+  },
+  {
+    "id": "70010000042932",
+    "title": "分享同樂！瓦利歐製造",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042932.jpg",
+    "releaseDate": "2021.9.10"
+  },
+  {
+    "id": "70010000029214",
+    "title": "天穗之咲稻姬",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029214.jpg",
+    "releaseDate": "2020.11.12"
+  },
+  {
+    "id": "70010000032293",
+    "title": "太鼓之達人 咚咔！二合一大冒險",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032293.jpg",
+    "releaseDate": "2020.11.26"
+  },
+  {
+    "id": "70010000035483",
+    "title": "太鼓之達人 咚咚雷音祭",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035483.jpg",
+    "releaseDate": "2022.9.22"
+  },
+  {
+    "id": "70010000057568",
+    "title": "太鼓之達人 咚咚雷音祭 太鼓 Music Pass90天使用券組合包",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000057568.jpg",
+    "releaseDate": "2022.11.8"
+  },
+  {
+    "id": "70010000011790",
+    "title": "太鼓之達人 Nintendo Switch版！",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011790.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000035026",
+    "title": "少女☆射擊 回歸初心",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035026.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000015706",
+    "title": "少女與戰車 戰車夢幻大會戰 DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015706.jpg",
+    "releaseDate": "2019.2.21"
+  },
+  {
+    "id": "70010000030390",
+    "title": "幻奏咖啡廳-Enchanté-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030390.jpg",
+    "releaseDate": "2020.12.24"
+  },
+  {
+    "id": "70010000027332",
+    "title": "幻影異聞錄♯FE Encore",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027332.jpg",
+    "releaseDate": "2020.1.17"
+  },
+  {
+    "id": "70010000027335",
+    "title": "戶外釣魚：公路旅行冒險",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027335.jpg",
+    "releaseDate": "2020.6.24"
+  },
+  {
+    "id": "70010000014595",
+    "title": "文明帝國VI",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014595.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000031180",
+    "title": "方根膠捲",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000031180.jpg",
+    "releaseDate": "2020.8.6"
+  },
+  {
+    "id": "70010000020241",
+    "title": "方塊方舟（PixARK）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020241.jpg",
+    "releaseDate": "2020.1.23"
+  },
+  {
+    "id": "70010000013363",
+    "title": "方塊創造者X",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013363.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000013626",
+    "title": "方塊創造者X 體驗版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013626.jpg",
+    "releaseDate": "2018.8.23"
+  },
+  {
+    "id": "70010000016050",
+    "title": "火影忍者疾風傳 終極風暴4 慕留人傳",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016050.jpg",
+    "releaseDate": "2020.4.23"
+  },
+  {
+    "id": "70010000016823",
+    "title": "王牌釣手 Nintendo Switch版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016823.jpg",
+    "releaseDate": "2019.7.25"
+  },
+  {
+    "id": "70010000029719",
+    "title": "世界遊戲大全51",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029719.jpg",
+    "releaseDate": "2020.6.5"
+  },
+  {
+    "id": "70010000056623",
+    "title": "卡比的美食節",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000056623.jpg",
+    "releaseDate": "2022.8.11"
+  },
+  {
+    "id": "70010000034638",
+    "title": "卡比群星戰2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034638.jpg",
+    "releaseDate": "2020.9.24"
+  },
+  {
+    "id": "70010000016043",
+    "title": "卡里古拉·過量強化",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016043.jpg",
+    "releaseDate": "2019.3.14"
+  },
+  {
+    "id": "70010000035242",
+    "title": "失落領域",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035242.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000021562",
+    "title": "布列克斯大獎賽",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021562.jpg",
+    "releaseDate": "2019.8.29"
+  },
+  {
+    "id": "70010000034017",
+    "title": "皮克敏™３ 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034017.jpg",
+    "releaseDate": "2020.10.30"
+  },
+  {
+    "id": "70010000012908",
+    "title": "任天堂明星大亂鬥 特別版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012908.jpg",
+    "releaseDate": "2018.12.7"
+  },
+  {
+    "id": "70010000024520",
+    "title": "伊蘇VIII -丹娜的隕涕日-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024520.jpg",
+    "releaseDate": "2020.5.28"
+  },
+  {
+    "id": "70010000013586",
+    "title": "光明之子",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013586.jpg",
+    "releaseDate": "2018.11.15"
+  },
+  {
+    "id": "70010000010321",
+    "title": "光明之響 龍奏回音",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010321.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000042727",
+    "title": "吃豆人 吃遍世界 (PAC-MAN WORLD Re-PAC)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042727.jpg",
+    "releaseDate": "2022.8.25"
+  },
+  {
+    "id": "70010000021825",
+    "title": "在地下城尋求邂逅是否搞錯了什麼 無限・戰鬥",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021825.jpg",
+    "releaseDate": "2020.2.6"
+  },
+  {
+    "id": "70010000016165",
+    "title": "托托莉的鍊金工房 ～亞蘭德之鍊金術士2～ DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016165.jpg",
+    "releaseDate": "2018.12.4"
+  },
+  {
+    "id": "70010000010203",
+    "title": "死亡細胞 (Dead Cells)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010203.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000043393",
+    "title": "死亡終局 輪迴試煉 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000043393.jpg",
+    "releaseDate": "2021.9.2"
+  },
+  {
+    "id": "70010000019241",
+    "title": "血咒之城：暗夜儀式",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019241.jpg",
+    "releaseDate": "2019.6.25"
+  },
+  {
+    "id": "70010000009376",
+    "title": "你裁我剪！斯尼帕 Plus",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009376.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000018698",
+    "title": "初音未來 Project DIVA MEGA39's",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018698.jpg",
+    "releaseDate": "2020.2.13"
+  },
+  {
+    "id": "70010000025794",
+    "title": "妖怪手錶4 我們仰望著同一片天空",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000025794.jpg",
+    "releaseDate": "2019.12.5"
+  },
+  {
+    "id": "70010000051905",
+    "title": "屁屁偵探 噗噗！未來名偵探登場！",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000051905.jpg",
+    "releaseDate": "2022.8.11"
+  },
+  {
+    "id": "70010000018065",
+    "title": "忍兔：胡蘿蔔大戰 體驗版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018065.jpg",
+    "releaseDate": "2019.5.9"
+  },
+  {
+    "id": "70010000052146",
+    "title": "忍者龜：許瑞德的復仇 (Teenage Mutant Ninja Turtles: Shredder's Revenge)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000052146.jpg",
+    "releaseDate": "2022.6.16"
+  },
+  {
+    "id": "70010000023990",
+    "title": "忍者寶盒",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023990.jpg",
+    "releaseDate": "2019.12.26"
+  },
+  {
+    "id": "70070000005441",
+    "title": "忍紓壓 閃亂神樂",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000005441.jpg",
+    "releaseDate": "2020.4.7"
+  },
+  {
+    "id": "70010000012361",
+    "title": "我的英雄學院 唯我正義",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012361.jpg",
+    "releaseDate": "2018.10.25"
+  },
+  {
+    "id": "70010000018821",
+    "title": "我的英雄學院 唯我正義2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018821.jpg",
+    "releaseDate": "2020.3.12"
+  },
+  {
+    "id": "70010000013577",
+    "title": "沙漠老鼠團！改！",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013577.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000027371",
+    "title": "來自深淵 朝向黑暗的雙星",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027371.jpg",
+    "releaseDate": "2022.9.1"
+  },
+  {
+    "id": "70010000019785",
+    "title": "侍道外傳 刀神",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019785.jpg",
+    "releaseDate": "2020.2.20"
+  },
+  {
+    "id": "70010000038040",
+    "title": "兩人一起！貓咪大戰爭",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000038040.jpg",
+    "releaseDate": "2021.12.9"
+  },
+  {
+    "id": "70010000019187",
+    "title": "刺客教條：逆命合輯",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019187.jpg",
+    "releaseDate": "2019.12.6"
+  },
+  {
+    "id": "70010000034165",
+    "title": "坦克戰記 異傳：重生（METAL MAX Xeno Reborn）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034165.jpg",
+    "releaseDate": "2020.12.24"
+  },
+  {
+    "id": "70010000014450",
+    "title": "夜下降生 Exe:Late[cl-r]",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014450.jpg",
+    "releaseDate": "2020.2.20"
+  },
+  {
+    "id": "70010000012347",
+    "title": "夜迴＆深夜迴for Nintendo Switch",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012347.jpg",
+    "releaseDate": "2018.10.25"
+  },
+  {
+    "id": "70010000010825",
+    "title": "奈爾克與傳說之鍊金術士們 ～新大地之鍊金工房～",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010825.jpg",
+    "releaseDate": "2019.3.26"
+  },
+  {
+    "id": "70010000025058",
+    "title": "怪物男孩與被詛咒的王國",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000025058.jpg",
+    "releaseDate": "2020.8.6"
+  },
+  {
+    "id": "70010000033445",
+    "title": "東方咒術泡泡",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033445.jpg",
+    "releaseDate": "2020.10.15"
+  },
+  {
+    "id": "70010000024516",
+    "title": "泡泡龍 4 伙伴",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024516.jpg",
+    "releaseDate": "2019.12.19"
+  },
+  {
+    "id": "70010000021368",
+    "title": "牧場物語 重聚礦石鎮",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021368.jpg",
+    "releaseDate": "2019.10.17"
+  },
+  {
+    "id": "70010000033281",
+    "title": "牧場物語 橄欖鎮與希望的大地",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033281.jpg",
+    "releaseDate": "2021.2.25"
+  },
+  {
+    "id": "70010000041270",
+    "title": "附帶導航！一做就上手 第一次的遊戲程式設計",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000041270.jpg",
+    "releaseDate": "2021.6.11"
+  },
+  {
+    "id": "70010000016581",
+    "title": "青梅竹馬是人魚姬!? My Girlfriend is a Mermaid!?",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016581.jpg",
+    "releaseDate": "2019.2.28"
+  },
+  {
+    "id": "70010000052955",
+    "title": "信長之野望･新生",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000052955.jpg",
+    "releaseDate": "2022.7.21"
+  },
+  {
+    "id": "70070000014499",
+    "title": "信長之野望･新生 數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014499.jpg",
+    "releaseDate": "2022.7.21"
+  },
+  {
+    "id": "70010000028031",
+    "title": "前進，天空塔！Forward To The Sky",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028031.jpg",
+    "releaseDate": "2021.2.25"
+  },
+  {
+    "id": "70010000023998",
+    "title": "勇者鬥惡龍",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023998.jpg",
+    "releaseDate": "2019.11.28"
+  },
+  {
+    "id": "70010000024000",
+    "title": "勇者鬥惡龍 II 惡靈之神",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024000.jpg",
+    "releaseDate": "2019.11.28"
+  },
+  {
+    "id": "70010000024002",
+    "title": "勇者鬥惡龍 III 傳說的起點…",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024002.jpg",
+    "releaseDate": "2019.11.28"
+  },
+  {
+    "id": "70070000007382",
+    "title": "勇者鬥惡龍XI S 尋覓逝去的時光 – Definitive Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000007382.jpg",
+    "releaseDate": "2019.9.27"
+  },
+  {
+    "id": "70010000012345",
+    "title": "勇者戰機少女 世界啊，宇宙啊，刮目相看吧！！ 終極ＲＰＧ宣言！！",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012345.jpg",
+    "releaseDate": "2019.7.4"
+  },
+  {
+    "id": "70010000033203",
+    "title": "哆啦Ａ夢 大雄的日文漢字大作戰",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033203.jpg",
+    "releaseDate": "2021.7.15"
+  },
+  {
+    "id": "70010000032645",
+    "title": "哆啦A夢 大雄的新恐龍",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032645.jpg",
+    "releaseDate": "2020.12.17"
+  },
+  {
+    "id": "70010000033209",
+    "title": "哆啦Ａ夢 大雄的數字大冒險",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033209.jpg",
+    "releaseDate": "2021.7.15"
+  },
+  {
+    "id": "70010000033202",
+    "title": "哆啦Ａ夢 大雄與小仙子的英語冒險",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033202.jpg",
+    "releaseDate": "2021.7.15"
+  },
+  {
+    "id": "70010000019943",
+    "title": "哆啦A夢 牧場物語",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019943.jpg",
+    "releaseDate": "2019.7.25"
+  },
+  {
+    "id": "70010000049989",
+    "title": "哆啦A夢 牧場物語 自然王國與和樂家人",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000049989.jpg",
+    "releaseDate": "2022.11.2"
+  },
+  {
+    "id": "70010000033208",
+    "title": "哆啦Ａ夢 迷你哆啦樂園的七大修煉",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033208.jpg",
+    "releaseDate": "2021.7.15"
+  },
+  {
+    "id": "70010000024288",
+    "title": "哆啦A夢：大雄的月球探測記",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024288.jpg",
+    "releaseDate": "2019.12.19"
+  },
+  {
+    "id": "70070000014674",
+    "title": "幽影行者：完整版 (Ghostrunner: Complete Edition)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014674.jpg",
+    "releaseDate": "2022.6.30"
+  },
+  {
+    "id": "70010000046408",
+    "title": "星之卡比 探索發現",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000046408.jpg",
+    "releaseDate": "2022.3.25"
+  },
+  {
+    "id": "70010000009382",
+    "title": "星之卡比 新星同盟",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009382.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000009646",
+    "title": "星之卡比 新星同盟 體驗版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009646.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000040395",
+    "title": "英雄傳說 閃之軌跡II：改 -The Erebonian Civil War-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000040395.jpg",
+    "releaseDate": "2021.8.5"
+  },
+  {
+    "id": "70010000040398",
+    "title": "英雄傳說 創之軌跡",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000040398.jpg",
+    "releaseDate": "2021.8.26"
+  },
+  {
+    "id": "70010000035981",
+    "title": "英雄傳說 零之軌跡：改",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035981.jpg",
+    "releaseDate": "2021.2.25"
+  },
+  {
+    "id": "70010000030971",
+    "title": "食用系少女 Food Girls",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030971.jpg",
+    "releaseDate": "2020.11.26"
+  },
+  {
+    "id": "70010000026357",
+    "title": "夏莉的鍊金工房 ～黃昏海洋之鍊金術士～ DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000026357.jpg",
+    "releaseDate": "2019.12.25"
+  },
+  {
+    "id": "70010000013581",
+    "title": "宵星傳奇 REMASTER",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013581.jpg",
+    "releaseDate": "2019.1.11"
+  },
+  {
+    "id": "70010000033509",
+    "title": "桑塔與七賽蓮",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033509.jpg",
+    "releaseDate": "2020.10.29"
+  },
+  {
+    "id": "70010000023876",
+    "title": "泰拉瑞亞",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023876.jpg",
+    "releaseDate": "2020.2.13"
+  },
+  {
+    "id": "70010000030609",
+    "title": "真・女神轉生Ⅲ NOCTURNE HD REMASTER",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030609.jpg",
+    "releaseDate": "2020.10.29"
+  },
+  {
+    "id": "70010000035065",
+    "title": "真・女神轉生Ⅴ",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035065.jpg",
+    "releaseDate": "2021.11.11"
+  },
+  {
+    "id": "70070000013177",
+    "title": "真・女神轉生Ⅴ ＋ DLC Bundle 組合包",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013177.jpg",
+    "releaseDate": "2021.11.11"
+  },
+  {
+    "id": "70010000015945",
+    "title": "真‧三國無雙７ with 猛將傳 DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015945.jpg",
+    "releaseDate": "2018.12.27"
+  },
+  {
+    "id": "70010000018077",
+    "title": "真人快打11",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018077.jpg",
+    "releaseDate": "2020.5.27"
+  },
+  {
+    "id": "70070000011265",
+    "title": "真人快打11終極版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000011265.jpg",
+    "releaseDate": "2020.10.22"
+  },
+  {
+    "id": "70010000012248",
+    "title": "神奇小子 龍之陷阱",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012248.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000045377",
+    "title": "神領編年史 The DioField Chronicle",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000045377.jpg",
+    "releaseDate": "2022.9.22"
+  },
+  {
+    "id": "70070000014166",
+    "title": "神領編年史 The DioField Chronicle Digital Deluxe Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014166.jpg",
+    "releaseDate": "2022.9.22"
+  },
+  {
+    "id": "70010000029729",
+    "title": "紙片瑪利歐：摺紙國王",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029729.jpg",
+    "releaseDate": "2020.7.17"
+  },
+  {
+    "id": "70010000040405",
+    "title": "索尼克 未知邊境",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000040405.jpg",
+    "releaseDate": "2022.11.8"
+  },
+  {
+    "id": "70070000015101",
+    "title": "索尼克 未知邊境 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000015101.jpg",
+    "releaseDate": "2022.11.8"
+  },
+  {
+    "id": "70070000012582",
+    "title": "索尼克繽紛色彩 究極版 七彩繽紛包（Sonic Colors: Ultimate - Digital Deluxe）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012582.jpg",
+    "releaseDate": "2021.9.6"
+  },
+  {
+    "id": "70010000028907",
+    "title": "索尼克繽紛色彩 究極版（Sonic Colors: Ultimate）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028907.jpg",
+    "releaseDate": "2021.9.9"
+  },
+  {
+    "id": "70010000009164",
+    "title": "航海王：海賊無雙3 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009164.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000034599",
+    "title": "草泥馬足球 全明星",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034599.jpg",
+    "releaseDate": "2020.11.5"
+  },
+  {
+    "id": "70010000009065",
+    "title": "荒野之槍 重裝上陣",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009065.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000027956",
+    "title": "虔誠之花的晚鐘 -ricordo-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027956.jpg",
+    "releaseDate": "2020.5.21"
+  },
+  {
+    "id": "70010000038620",
+    "title": "迷托邦",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000038620.jpg",
+    "releaseDate": "2021.5.21"
+  },
+  {
+    "id": "70010000024429",
+    "title": "退魔忍法帖~妖怪地獄變~",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024429.jpg",
+    "releaseDate": "2019.12.4"
+  },
+  {
+    "id": "70010000010278",
+    "title": "飢餓鯊：世界",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010278.jpg",
+    "releaseDate": "2018.11.15"
+  },
+  {
+    "id": "70010000019367",
+    "title": "馬基騎士 -鮮血巴哥斯-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019367.jpg",
+    "releaseDate": "2019.5.9"
+  },
+  {
+    "id": "70010000011897",
+    "title": "高高興興動物樂園",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011897.jpg",
+    "releaseDate": "2018.7.26"
+  },
+  {
+    "id": "70010000013036",
+    "title": "高高興興動物樂園 體驗版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013036.jpg",
+    "releaseDate": "2018.7.26"
+  },
+  {
+    "id": "70010000029971",
+    "title": "鬼哭之邦(繁體中文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029971.jpg",
+    "releaseDate": "2020.8.13"
+  },
+  {
+    "id": "70010000016610",
+    "title": "偵探 神宮寺三郎 前傳 DAEDALUS : The Awakening of Golden Jazz",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016610.jpg",
+    "releaseDate": "2019.5.23"
+  },
+  {
+    "id": "70010000042927",
+    "title": "密特羅德 生存恐懼",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042927.jpg",
+    "releaseDate": "2021.10.8"
+  },
+  {
+    "id": "70010000012889",
+    "title": "彩京精選 Vol.1",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012889.jpg",
+    "releaseDate": "2018.9.21"
+  },
+  {
+    "id": "70010000014357",
+    "title": "彩京精選 Vol.2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014357.jpg",
+    "releaseDate": "2018.11.22"
+  },
+  {
+    "id": "70010000016195",
+    "title": "梅露露的鍊金工房 ～亞蘭德之鍊金術士3～ DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016195.jpg",
+    "releaseDate": "2018.12.4"
+  },
+  {
+    "id": "70010000019501",
+    "title": "現嚐好滋味！超級猴子球",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019501.jpg",
+    "releaseDate": "2019.10.31"
+  },
+  {
+    "id": "70010000032025",
+    "title": "現嚐好滋味！超級猴子球 1&2 重製版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032025.jpg",
+    "releaseDate": "2021.10.7"
+  },
+  {
+    "id": "70070000012401",
+    "title": "現嚐好滋味！超級猴子球 1&2 重製版 數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012401.jpg",
+    "releaseDate": "2021.10.7"
+  },
+  {
+    "id": "70010000029714",
+    "title": "異度神劍 終極版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029714.jpg",
+    "releaseDate": "2020.5.29"
+  },
+  {
+    "id": "70010000009647",
+    "title": "異度神劍2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009647.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000053339",
+    "title": "異度神劍3",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000053339.jpg",
+    "releaseDate": "2022.7.29"
+  },
+  {
+    "id": "70010000022478",
+    "title": "異界鎖鏈",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022478.jpg",
+    "releaseDate": "2019.8.30"
+  },
+  {
+    "id": "70010000033794",
+    "title": "祭物與雪之剎那",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033794.jpg",
+    "releaseDate": "2020.10.29"
+  },
+  {
+    "id": "70010000018934",
+    "title": "符文工廠4豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018934.jpg",
+    "releaseDate": "2019.12.5"
+  },
+  {
+    "id": "70010000035555",
+    "title": "第六妖守",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035555.jpg",
+    "releaseDate": "2021.9.24"
+  },
+  {
+    "id": "70010000008864",
+    "title": "莎莉之定律",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000008864.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000027450",
+    "title": "釣魚明星 世界巡迴賽",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027450.jpg",
+    "releaseDate": "2020.3.26"
+  },
+  {
+    "id": "70010000021176",
+    "title": "凱登絲勇闖海拉魯：死靈舞師地牢 薩爾達傳說 合作鉅獻",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021176.jpg",
+    "releaseDate": "2019.6.14"
+  },
+  {
+    "id": "70010000019372",
+    "title": "復活同盟 HD Remastered",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019372.jpg",
+    "releaseDate": "2019.10.10"
+  },
+  {
+    "id": "70010000039478",
+    "title": "復活邪神3",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000039478.jpg",
+    "releaseDate": "2021.8.19"
+  },
+  {
+    "id": "70010000046398",
+    "title": "斯普拉遁 3",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000046398.jpg",
+    "releaseDate": "2022.9.9"
+  },
+  {
+    "id": "70070000009402",
+    "title": "無雙OROCHI 蛇魔３ Ultimate",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000009402.jpg",
+    "releaseDate": "2019.12.19"
+  },
+  {
+    "id": "70010000030515",
+    "title": "硬核機甲",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030515.jpg",
+    "releaseDate": "2020.10.15"
+  },
+  {
+    "id": "70010000033871",
+    "title": "童話森林",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033871.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000023657",
+    "title": "絕體絕命都市 4 Plus：夏日回憶",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023657.jpg",
+    "releaseDate": "2020.4.9"
+  },
+  {
+    "id": "70010000022723",
+    "title": "萊莎的鍊金工房 ～常闇女王與秘密藏身處～",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022723.jpg",
+    "releaseDate": "2019.9.26"
+  },
+  {
+    "id": "70010000030768",
+    "title": "萊莎的鍊金工房２ ～失落傳說與秘密妖精～",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030768.jpg",
+    "releaseDate": "2020.12.3"
+  },
+  {
+    "id": "70010000021252",
+    "title": "街頭大亂鬥進行曲 Mach!!",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021252.jpg",
+    "releaseDate": "2019.10.10"
+  },
+  {
+    "id": "70010000011064",
+    "title": "超回転 寿司ストライカー The Way of Sushido (日文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011064.jpg",
+    "releaseDate": "2018.6.8"
+  },
+  {
+    "id": "70010000022993",
+    "title": "超級卡比獵人隊",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022993.jpg",
+    "releaseDate": "2019.9.5"
+  },
+  {
+    "id": "70010000029734",
+    "title": "超級瑪利歐 3D 收藏輯",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029734.jpg",
+    "releaseDate": "2020.9.18"
+  },
+  {
+    "id": "70010000034442",
+    "title": "超級瑪利歐 ３Ｄ世界 ＋ 狂怒世界",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034442.jpg",
+    "releaseDate": "2021.2.12"
+  },
+  {
+    "id": "70010000009372",
+    "title": "超級瑪利歐 奧德賽",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009372.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000032838",
+    "title": "超級機器人大戰30",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032838.jpg",
+    "releaseDate": "2021.10.28"
+  },
+  {
+    "id": "70010000015667",
+    "title": "超級機器人大戰Ｔ",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015667.jpg",
+    "releaseDate": "2019.3.20"
+  },
+  {
+    "id": "70010000019765",
+    "title": "超級機器人大戰V",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019765.jpg",
+    "releaseDate": "2019.10.3"
+  },
+  {
+    "id": "70010000019769",
+    "title": "超級機器人大戰Ｘ",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019769.jpg",
+    "releaseDate": "2020.1.10"
+  },
+  {
+    "id": "70070000006284",
+    "title": "進擊的巨人２ -Final Battle-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000006284.jpg",
+    "releaseDate": "2019.7.4"
+  },
+  {
+    "id": "70010000011067",
+    "title": "進め！キノピオ隊長",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011067.jpg",
+    "releaseDate": "2018.7.13"
+  },
+  {
+    "id": "70010000012421",
+    "title": "進め！キノピオ隊長 體驗版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012421.jpg",
+    "releaseDate": "2018.6.20"
+  },
+  {
+    "id": "70010000015247",
+    "title": "隊長小翼 新秀崛起",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015247.jpg",
+    "releaseDate": "2020.8.27"
+  },
+  {
+    "id": "70010000027622",
+    "title": "集合啦！動物森友會",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027622.jpg",
+    "releaseDate": "2020.3.20"
+  },
+  {
+    "id": "70010000019627",
+    "title": "愛上火車 -Pure Station-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019627.jpg",
+    "releaseDate": "2020.2.20"
+  },
+  {
+    "id": "70010000026353",
+    "title": "愛夏的鍊金工房 ～黃昏大地之鍊金術士～ DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000026353.jpg",
+    "releaseDate": "2019.12.25"
+  },
+  {
+    "id": "70010000026355",
+    "title": "愛絲卡&羅吉的鍊金工房 ～黃昏天空之鍊金術士～ DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000026355.jpg",
+    "releaseDate": "2019.12.25"
+  },
+  {
+    "id": "70010000013556",
+    "title": "新大開拓時代~建造村落~",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013556.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000018202",
+    "title": "新世界地圖 1469",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018202.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000027950",
+    "title": "新次元遊戲 戰機少女 VII",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027950.jpg",
+    "releaseDate": "2020.6.18"
+  },
+  {
+    "id": "70010000017081",
+    "title": "極限凸記 萌萌編年史 H",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017081.jpg",
+    "releaseDate": "2019.5.16"
+  },
+  {
+    "id": "70010000027953",
+    "title": "極限凸起 萌情水晶 H",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027953.jpg",
+    "releaseDate": "2020.5.28"
+  },
+  {
+    "id": "70010000029522",
+    "title": "極限凸起 萌情水晶 H (英文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029522.jpg",
+    "releaseDate": "2020.10.8"
+  },
+  {
+    "id": "70010000019221",
+    "title": "煉獄冒險家: 重生",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019221.jpg",
+    "releaseDate": "2019.5.16"
+  },
+  {
+    "id": "70010000019734",
+    "title": "煉獄圍城 (Hell Warders)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019734.jpg",
+    "releaseDate": "2019.6.27"
+  },
+  {
+    "id": "70010000042720",
+    "title": "節奏健身 HOME FiT",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042720.jpg",
+    "releaseDate": "2021.9.16"
+  },
+  {
+    "id": "70010000042723",
+    "title": "罪惡王權／Monark",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042723.jpg",
+    "releaseDate": "2021.10.14"
+  },
+  {
+    "id": "70010000034284",
+    "title": "罪惡帝國",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034284.jpg",
+    "releaseDate": "2021.2.25"
+  },
+  {
+    "id": "70010000031077",
+    "title": "腦科學專家 川島隆太博士監修 大人的Nintendo Switch腦部鍛鍊",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000031077.jpg",
+    "releaseDate": "2020.7.1"
+  },
+  {
+    "id": "70010000024566",
+    "title": "路易吉洋樓３",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024566.jpg",
+    "releaseDate": "2019.10.31"
+  },
+  {
+    "id": "70010000013611",
+    "title": "運動派對",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013611.jpg",
+    "releaseDate": "2018.10.30"
+  },
+  {
+    "id": "70070000012874",
+    "title": "零 ～濡鴉ノ巫女～ 數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012874.jpg",
+    "releaseDate": "2021.10.28"
+  },
+  {
+    "id": "70010000021394",
+    "title": "槍彈突擊小精靈 for Nintendo Switch",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021394.jpg",
+    "releaseDate": "2020.1.23"
+  },
+  {
+    "id": "70010000028777",
+    "title": "漂亮公主 魔法衣裳",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028777.jpg",
+    "releaseDate": "2020.10.22"
+  },
+  {
+    "id": "70010000009377",
+    "title": "瑪利歐 + 瘋狂兔子 王國之戰 (日中版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009377.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000011652",
+    "title": "瑪利歐 + 瘋狂兔子 王國之戰 (英中版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011652.jpg",
+    "releaseDate": "2018.6.26"
+  },
+  {
+    "id": "70010000013896",
+    "title": "瑪利歐&索尼克 AT 2020東京奧運™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013896.jpg",
+    "releaseDate": "2019.11.1"
+  },
+  {
+    "id": "70010000038625",
+    "title": "瑪利歐高爾夫 超級衝衝衝",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000038625.jpg",
+    "releaseDate": "2021.6.25"
+  },
+  {
+    "id": "70010000049939",
+    "title": "瑪利歐激戰前鋒 戰鬥聯賽",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000049939.jpg",
+    "releaseDate": "2022.6.10"
+  },
+  {
+    "id": "70010000009373",
+    "title": "瑪利歐賽車8 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009373.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70070000013724",
+    "title": "瑪利歐賽車8 豪華版 新增賽道通行證",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013724.jpg",
+    "releaseDate": "2022.3.18"
+  },
+  {
+    "id": "70010000039787",
+    "title": "瘋狂兔子：傳奇派對",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000039787.jpg",
+    "releaseDate": "2022.6.30"
+  },
+  {
+    "id": "70010000032682",
+    "title": "碧藍航線 Crosswave",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032682.jpg",
+    "releaseDate": "2020.10.22"
+  },
+  {
+    "id": "70010000015694",
+    "title": "精靈寶可夢 Let's Go！皮卡丘",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015694.jpg",
+    "releaseDate": "2018.11.16"
+  },
+  {
+    "id": "70010000015693",
+    "title": "精靈寶可夢 Let's Go！伊布",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015693.jpg",
+    "releaseDate": "2018.11.16"
+  },
+  {
+    "id": "70010000052060",
+    "title": "與魔共舞/Dance with Devils",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000052060.jpg",
+    "releaseDate": "2022.7.28"
+  },
+  {
+    "id": "70010000014321",
+    "title": "蒼翼默示錄 神觀之夢 特別版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014321.jpg",
+    "releaseDate": "2019.2.7"
+  },
+  {
+    "id": "70010000039777",
+    "title": "蒼藍雷霆GUNVOLT 3 鎖環",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000039777.jpg",
+    "releaseDate": "2022.7.28"
+  },
+  {
+    "id": "70010000013625",
+    "title": "蒼藍雷霆GUNVOLT 強襲合輯",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013625.jpg",
+    "releaseDate": "2018.12.6"
+  },
+  {
+    "id": "70010000046403",
+    "title": "蓓優妮塔3",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000046403.jpg",
+    "releaseDate": "2022.10.28"
+  },
+  {
+    "id": "70010000012263",
+    "title": "說謊公主與盲眼王子",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012263.jpg",
+    "releaseDate": "2018.8.23"
+  },
+  {
+    "id": "70010000022813",
+    "title": "輕鬆網球SP",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022813.jpg",
+    "releaseDate": "2019.12.4"
+  },
+  {
+    "id": "70010000030740",
+    "title": "遙遠時空７",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030740.jpg",
+    "releaseDate": "2020.6.18"
+  },
+  {
+    "id": "70010000020273",
+    "title": "銀白鋼鐵X THE OUT OF GUNVOLT",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020273.jpg",
+    "releaseDate": "2019.9.24"
+  },
+  {
+    "id": "70010000054134",
+    "title": "劍與魔法與學園任務",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000054134.jpg",
+    "releaseDate": "2022.9.8"
+  },
+  {
+    "id": "70010000012976",
+    "title": "墮落軍團 - 光榮系譜 -",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012976.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000042189",
+    "title": "數碼寶貝 絕境求生",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042189.jpg",
+    "releaseDate": "2022.7.28"
+  },
+  {
+    "id": "70010000018679",
+    "title": "數碼寶貝物語 網路偵探 駭客追憶",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018679.jpg",
+    "releaseDate": "2019.10.17"
+  },
+  {
+    "id": "70010000046170",
+    "title": "樂高®大亂鬥 (LEGO® Brawls)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000046170.jpg",
+    "releaseDate": "2022.9.2"
+  },
+  {
+    "id": "70010000013358",
+    "title": "樂高玩電影2遊戲",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013358.jpg",
+    "releaseDate": "2020.2.27"
+  },
+  {
+    "id": "70010000051982",
+    "title": "熱血三國志",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000051982.jpg",
+    "releaseDate": "2022.7.21"
+  },
+  {
+    "id": "70010000023734",
+    "title": "熱血外傳：好酷啊！小林",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023734.jpg",
+    "releaseDate": "2019.11.7"
+  },
+  {
+    "id": "70010000019727",
+    "title": "熱血硬派國夫君外傳熱血少女 River City Girls",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019727.jpg",
+    "releaseDate": "2019.9.12"
+  },
+  {
+    "id": "70010000013053",
+    "title": "魯弗蘭的地下迷宮與魔女的旅團",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013053.jpg",
+    "releaseDate": "2018.9.27"
+  },
+  {
+    "id": "70010000019407",
+    "title": "噬神者3",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019407.jpg",
+    "releaseDate": "2019.7.11"
+  },
+  {
+    "id": "70010000013420",
+    "title": "戰鬥公主瑪德琳",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013420.jpg",
+    "releaseDate": "2018.12.20"
+  },
+  {
+    "id": "70010000009221",
+    "title": "戰場女武神",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009221.jpg",
+    "releaseDate": "2018.10.15"
+  },
+  {
+    "id": "70010000009718",
+    "title": "戰場女武神４",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009718.jpg",
+    "releaseDate": "2018.9.27"
+  },
+  {
+    "id": "70010000021222",
+    "title": "擔架拍擋™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021222.jpg",
+    "releaseDate": "2019.11.8"
+  },
+  {
+    "id": "70010000051665",
+    "title": "機戰少女★Alice CS ～Concerto of Simulatrix～ （alice gear aegisCS）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000051665.jpg",
+    "releaseDate": "2022.9.8"
+  },
+  {
+    "id": "70010000022793",
+    "title": "殭屍仙境瘋狂旅DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022793.jpg",
+    "releaseDate": "2019.12.4"
+  },
+  {
+    "id": "70010000013601",
+    "title": "蕾咪羅亞～少女與異世界與魔導書～",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013601.jpg",
+    "releaseDate": "2019.3.28"
+  },
+  {
+    "id": "70010000055740",
+    "title": "謊月香格里拉",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000055740.jpg",
+    "releaseDate": "2022.9.29"
+  },
+  {
+    "id": "70070000013911",
+    "title": "闇影詩章‧霸者之戰 傳奇版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013911.jpg",
+    "releaseDate": "2022.3.24"
+  },
+  {
+    "id": "70010000041353",
+    "title": "舊書店街的橋姬 々",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000041353.jpg",
+    "releaseDate": "2021.12.16"
+  },
+  {
+    "id": "70010000023514",
+    "title": "薩爾達傳說 織夢島",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023514.jpg",
+    "releaseDate": "2019.9.20"
+  },
+  {
+    "id": "70010000009367",
+    "title": "薩爾達傳說 曠野之息",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009367.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000013830",
+    "title": "雙截龍4",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013830.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000030110",
+    "title": "爆丸：維斯托亞之冠",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030110.jpg",
+    "releaseDate": "2020.10.29"
+  },
+  {
+    "id": "70010000028223",
+    "title": "爆鑽小英雄 鑽頭樂園",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028223.jpg",
+    "releaseDate": "2020.6.25"
+  },
+  {
+    "id": "70010000022954",
+    "title": "邊緣禁地：年度版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022954.jpg",
+    "releaseDate": "2020.5.29"
+  },
+  {
+    "id": "70010000053969",
+    "title": "寶可夢 朱",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000053969.jpg",
+    "releaseDate": "2022.11.18"
+  },
+  {
+    "id": "70010000039958",
+    "title": "寶可夢 明亮珍珠",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000039958.jpg",
+    "releaseDate": "2021.11.19"
+  },
+  {
+    "id": "70010000026111",
+    "title": "寶可夢 盾",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000026111.jpg",
+    "releaseDate": "2019.11.15"
+  },
+  {
+    "id": "70010000039953",
+    "title": "寶可夢 晶燦鑽石",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000039953.jpg",
+    "releaseDate": "2021.11.19"
+  },
+  {
+    "id": "70010000053974",
+    "title": "寶可夢 紫",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000053974.jpg",
+    "releaseDate": "2022.11.18"
+  },
+  {
+    "id": "70010000026110",
+    "title": "寶可夢 劍",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000026110.jpg",
+    "releaseDate": "2019.11.15"
+  },
+  {
+    "id": "70010000011230",
+    "title": "寶可夢探險尋寶",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011230.jpg",
+    "releaseDate": "2018.6.1"
+  },
+  {
+    "id": "70010000039948",
+    "title": "寶可夢傳說 阿爾宙斯",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000039948.jpg",
+    "releaseDate": "2022.1.28"
+  },
+  {
+    "id": "70010000018872",
+    "title": "耀西的手工世界",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018872.jpg",
+    "releaseDate": "2019.3.29"
+  },
+  {
+    "id": "70010000019738",
+    "title": "露露亞的鍊金工房 ～亞蘭德之鍊金術士4～",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019738.jpg",
+    "releaseDate": "2019.5.21"
+  },
+  {
+    "id": "70010000035097",
+    "title": "魔女之泉3 Re:Fine ─玩偶小魔女艾露迪的故事─",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035097.jpg",
+    "releaseDate": "2020.12.17"
+  },
+  {
+    "id": "70010000019039",
+    "title": "魔犬大騷亂",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019039.jpg",
+    "releaseDate": "2019.8.29"
+  },
+  {
+    "id": "70010000012034",
+    "title": "魔法氣泡 TETRIS®",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012034.jpg",
+    "releaseDate": "2018.6.20"
+  },
+  {
+    "id": "70010000011999",
+    "title": "魔法氣泡eSports",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011999.jpg",
+    "releaseDate": "2018.10.25"
+  },
+  {
+    "id": "70010000029305",
+    "title": "魔法氣泡™ 特趣思™ 俄羅斯方塊™ 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029305.jpg",
+    "releaseDate": "2020.12.10"
+  },
+  {
+    "id": "70010000023460",
+    "title": "魔界戰記４Return",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023460.jpg",
+    "releaseDate": "2020.4.23"
+  },
+  {
+    "id": "70010000043791",
+    "title": "魔界戰記DISGAEA 5 Alliance of Vengeance",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000043791.jpg",
+    "releaseDate": "2021.7.29"
+  },
+  {
+    "id": "70010000012137",
+    "title": "魔界戰記DISGAEA Refine",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012137.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000015950",
+    "title": "蘿樂娜的鍊金工房 ～亞蘭德之鍊金術士～ DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015950.jpg",
+    "releaseDate": "2018.12.4"
+  },
+  {
+    "id": "70010000012684",
+    "title": "體感嘉年華",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012684.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000044954",
+    "title": "靈活腦學校 一起伸展大腦",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000044954.jpg",
+    "releaseDate": "2021.12.3"
+  },
+  {
+    "id": "70010000030778",
+    "title": "A列車：開始吧 觀光開發計畫",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030778.jpg",
+    "releaseDate": "2021.3.12"
+  },
+  {
+    "id": "70070000012574",
+    "title": "Ace Attorney Turnabout Collection",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012574.jpg",
+    "releaseDate": "2021.7.29"
+  },
+  {
+    "id": "70010000015128",
+    "title": "Air Conflicts: Pacific Carriers",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015128.jpg",
+    "releaseDate": "2019.8.8"
+  },
+  {
+    "id": "70010000017531",
+    "title": "Air Conflicts: Secret Wars",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017531.jpg",
+    "releaseDate": "2019.8.8"
+  },
+  {
+    "id": "70010000029382",
+    "title": "Air Missions: HIND",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029382.jpg",
+    "releaseDate": "2020.7.30"
+  },
+  {
+    "id": "70010000043639",
+    "title": "Angry Alligator 憤怒鱷魚",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000043639.jpg",
+    "releaseDate": "2021.10.28"
+  },
+  {
+    "id": "70010000009381",
+    "title": "ARMS",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009381.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000014554",
+    "title": "Asterix & Obelix XXL 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014554.jpg",
+    "releaseDate": "2019.2.7"
+  },
+  {
+    "id": "70010000028293",
+    "title": "Bare Knuckle IV",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028293.jpg",
+    "releaseDate": "2020.4.30"
+  },
+  {
+    "id": "70010000015478",
+    "title": "BLADE ARCUS Rebellion from Shining",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015478.jpg",
+    "releaseDate": "2019.3.14"
+  },
+  {
+    "id": "70010000011605",
+    "title": "Blade Strangers",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011605.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000009601",
+    "title": "BLAZBLUE CROSS TAG BATTLE",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009601.jpg",
+    "releaseDate": "2018.6.20"
+  },
+  {
+    "id": "70010000018161",
+    "title": "Blazing Chrome",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018161.jpg",
+    "releaseDate": "2019.9.19"
+  },
+  {
+    "id": "70010000034859",
+    "title": "BLUE REFLECTION: 帝",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034859.jpg",
+    "releaseDate": "2021.10.21"
+  },
+  {
+    "id": "70010000019901",
+    "title": "BOXBOY! ＋ BOXGIRL!",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019901.jpg",
+    "releaseDate": "2019.4.26"
+  },
+  {
+    "id": "70010000035960",
+    "title": "BRAVELY DEFAULT II",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035960.jpg",
+    "releaseDate": "2021.2.26"
+  },
+  {
+    "id": "70010000012097",
+    "title": "Brawlhalla",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012097.jpg",
+    "releaseDate": "2019.9.12"
+  },
+  {
+    "id": "70010000029271",
+    "title": "Brigandine The Legend of Runersia",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029271.jpg",
+    "releaseDate": "2020.6.25"
+  },
+  {
+    "id": "70010000017442",
+    "title": "Caladrius Blaze",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017442.jpg",
+    "releaseDate": "2019.7.31"
+  },
+  {
+    "id": "70010000008902",
+    "title": "Capcom Belt Action Collection",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000008902.jpg",
+    "releaseDate": "2018.11.7"
+  },
+  {
+    "id": "70070000014456",
+    "title": "Capcom Fighting Bundle",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014456.jpg",
+    "releaseDate": "2022.6.24"
+  },
+  {
+    "id": "70010000033032",
+    "title": "Citizens Unite!: Earth x Space",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033032.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000010528",
+    "title": "CLOSED NIGHTMARE",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010528.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000048898",
+    "title": "Code︰Realize 〜祝福的未來〜",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000048898.jpg",
+    "releaseDate": "2022.7.28"
+  },
+  {
+    "id": "70010000053608",
+    "title": "Collar×Malice -Unlimited-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000053608.jpg",
+    "releaseDate": "2022.8.25"
+  },
+  {
+    "id": "70010000034112",
+    "title": "Commandos 2 - HD Remaster",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034112.jpg",
+    "releaseDate": "2021.8.5"
+  },
+  {
+    "id": "70010000041992",
+    "title": "ConnecTank™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000041992.jpg",
+    "releaseDate": "2021.10.7"
+  },
+  {
+    "id": "70010000017616",
+    "title": "CONTRA: ROGUE CORPS (中英韓文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017616.jpg",
+    "releaseDate": "2020.2.13"
+  },
+  {
+    "id": "70010000037694",
+    "title": "COTTOn Reboot!",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000037694.jpg",
+    "releaseDate": "2021.3.18"
+  },
+  {
+    "id": "70010000011472",
+    "title": "Cytus α",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011472.jpg",
+    "releaseDate": "2019.4.25"
+  },
+  {
+    "id": "70010000021605",
+    "title": "DAEMON X MACHINA（機甲戰魔）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021605.jpg",
+    "releaseDate": "2019.9.13"
+  },
+  {
+    "id": "70010000022481",
+    "title": "Damascus Gear Operation Osaka",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022481.jpg",
+    "releaseDate": "2019.8.29"
+  },
+  {
+    "id": "70010000022591",
+    "title": "Damascus Gear Operation Tokyo",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022591.jpg",
+    "releaseDate": "2019.8.29"
+  },
+  {
+    "id": "70010000008802",
+    "title": "DARK SOULS™: Remastered",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000008802.jpg",
+    "releaseDate": "2018.10.18"
+  },
+  {
+    "id": "70010000038630",
+    "title": "DC Super Hero Girls: Teen Power",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000038630.jpg",
+    "releaseDate": "2021.6.4"
+  },
+  {
+    "id": "70070000005301",
+    "title": "DEAD OR ALIVE Xtreme 沙灘排球 3 Scarlet",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000005301.jpg",
+    "releaseDate": "2020.2.13"
+  },
+  {
+    "id": "70010000031020",
+    "title": "Deadly Premonition 2 A Blessing in Disguise",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000031020.jpg",
+    "releaseDate": "2020.7.10"
+  },
+  {
+    "id": "70010000013979",
+    "title": "Death Road to Canada",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013979.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000013723",
+    "title": "DEEMO",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013723.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000016881",
+    "title": "DESTINY CONNECT 命運連動",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016881.jpg",
+    "releaseDate": "2019.5.30"
+  },
+  {
+    "id": "70010000017203",
+    "title": "Devil May Cry",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017203.jpg",
+    "releaseDate": "2019.6.25"
+  },
+  {
+    "id": "70010000017204",
+    "title": "Devil May Cry 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017204.jpg",
+    "releaseDate": "2019.9.19"
+  },
+  {
+    "id": "70010000010572",
+    "title": "Dimension Drive",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010572.jpg",
+    "releaseDate": "2020.1.23"
+  },
+  {
+    "id": "70010000022756",
+    "title": "Disney TSUM TSUM FESTIVAL",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022756.jpg",
+    "releaseDate": "2019.10.10"
+  },
+  {
+    "id": "70010000010680",
+    "title": "Donkey Kong Tropical Freeze",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010680.jpg",
+    "releaseDate": "2018.5.3"
+  },
+  {
+    "id": "70070000011182",
+    "title": "DOOM® Eternal",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000011182.jpg",
+    "releaseDate": "2020.12.8"
+  },
+  {
+    "id": "70010000020629",
+    "title": "Dragon Quest Builders 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020629.jpg",
+    "releaseDate": "2019.8.9"
+  },
+  {
+    "id": "70010000018691",
+    "title": "Dragon's Dogma: Dark Arisen",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018691.jpg",
+    "releaseDate": "2019.4.25"
+  },
+  {
+    "id": "70010000009741",
+    "title": "Dungeon Rushers",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009741.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000014348",
+    "title": "Dungreed",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014348.jpg",
+    "releaseDate": "2020.9.24"
+  },
+  {
+    "id": "70010000020269",
+    "title": "Dusk Diver 酉閃町",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020269.jpg",
+    "releaseDate": "2020.1.23"
+  },
+  {
+    "id": "70010000016832",
+    "title": "EA SPORTS™《FIFA 20》Nintendo Switch™ 傳奇版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016832.jpg",
+    "releaseDate": "2020.2.6"
+  },
+  {
+    "id": "70010000047792",
+    "title": "EA SPORTS™《FIFA 23》Nintendo Switch™ Legacy Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000047792.jpg",
+    "releaseDate": "2022.9.30"
+  },
+  {
+    "id": "70010000055412",
+    "title": "Endling - Extinction is Forever",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000055412.jpg",
+    "releaseDate": "2022.7.19"
+  },
+  {
+    "id": "70010000022096",
+    "title": "FAIRY TAIL",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022096.jpg",
+    "releaseDate": "2020.7.30"
+  },
+  {
+    "id": "70070000011494",
+    "title": "Fatal Seed Bundle",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000011494.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000015163",
+    "title": "Fate/EXTELLA LINK",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015163.jpg",
+    "releaseDate": "2019.1.31"
+  },
+  {
+    "id": "70010000038673",
+    "title": "FIFA 22 Nintendo Switch™ Legacy Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000038673.jpg",
+    "releaseDate": "2021.10.1"
+  },
+  {
+    "id": "70010000018203",
+    "title": "FINAL FANTASY VII",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018203.jpg",
+    "releaseDate": "2019.3.26"
+  },
+  {
+    "id": "70010000019036",
+    "title": "FINAL FANTASY VIII Remastered",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019036.jpg",
+    "releaseDate": "2019.9.3"
+  },
+  {
+    "id": "70010000016261",
+    "title": "FINAL FANTASY X/X-2 HD Remaster",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016261.jpg",
+    "releaseDate": "2019.4.11"
+  },
+  {
+    "id": "70010000016505",
+    "title": "FINAL FANTASY XII THE ZODIAC AGE",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016505.jpg",
+    "releaseDate": "2019.4.25"
+  },
+  {
+    "id": "70010000021361",
+    "title": "Fire Emblem 風花雪月",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021361.jpg",
+    "releaseDate": "2019.7.26"
+  },
+  {
+    "id": "70010000012088",
+    "title": "FIRE EMBLEM 無雙",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012088.jpg",
+    "releaseDate": "2018.6.20"
+  },
+  {
+    "id": "70010000050752",
+    "title": "FIRE EMBLEM 無雙 風花雪月",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000050752.jpg",
+    "releaseDate": "2022.6.24"
+  },
+  {
+    "id": "70010000009563",
+    "title": "Fitness Boxing",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009563.jpg",
+    "releaseDate": "2018.12.20"
+  },
+  {
+    "id": "70010000035240",
+    "title": "Fitness Boxing 2: Rhythm & Exercise",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035240.jpg",
+    "releaseDate": "2020.12.3"
+  },
+  {
+    "id": "70010000024513",
+    "title": "Friday The 13th: The Game ULTIMATE SLASHER EDITION (十三號星期五-終極斬殺版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024513.jpg",
+    "releaseDate": "2020.1.30"
+  },
+  {
     "id": "70010000054199",
     "title": "Game 70010000054199",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000054199.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000058466",
     "title": "Game 70010000058466",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000058466.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000067524",
     "title": "Game 70010000067524",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000067524.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000068681",
     "title": "Game 70010000068681",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000068681.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000068686",
     "title": "Game 70010000068686",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000068686.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000068691",
     "title": "Game 70010000068691",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000068691.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000068696",
     "title": "Game 70010000068696",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000068696.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000072184",
     "title": "Game 70010000072184",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000072184.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000072194",
     "title": "Game 70010000072194",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000072194.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000072199",
     "title": "Game 70010000072199",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000072199.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000077703",
     "title": "Game 70010000077703",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000077703.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000077708",
     "title": "Game 70010000077708",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000077708.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000079170",
     "title": "Game 70010000079170",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000079170.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000080667",
     "title": "Game 70010000080667",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000080667.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000084606",
     "title": "Game 70010000084606",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000084606.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000084611",
     "title": "Game 70010000084611",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000084611.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000084616",
     "title": "Game 70010000084616",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000084616.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000084621",
     "title": "Game 70010000084621",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000084621.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000084626",
     "title": "Game 70010000084626",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000084626.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000088835",
     "title": "Game 70010000088835",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000088835.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000089517",
     "title": "Game 70010000089517",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000089517.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000090756",
     "title": "Game 70010000090756",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000090756.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000092412",
     "title": "Game 70010000092412",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000092412.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000094237",
     "title": "Game 70010000094237",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000094237.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000094263",
     "title": "Game 70010000094263",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000094263.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000095685",
     "title": "Game 70010000095685",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000095685.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000098060",
     "title": "Game 70010000098060",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000098060.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000099842",
     "title": "Game 70010000099842",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000099842.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000102739",
     "title": "Game 70010000102739",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000102739.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000104190",
     "title": "Game 70010000104190",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000104190.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000104195",
     "title": "Game 70010000104195",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000104195.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000105773",
     "title": "Game 70010000105773",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000105773.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000105950",
     "title": "Game 70010000105950",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000105950.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000107439",
     "title": "Game 70010000107439",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000107439.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000109111",
     "title": "Game 70010000109111",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000109111.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000109116",
     "title": "Game 70010000109116",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000109116.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000110120",
     "title": "Game 70010000110120",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000110120.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000110145",
     "title": "Game 70010000110145",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000110145.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000110300",
     "title": "Game 70010000110300",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000110300.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000110877",
     "title": "Game 70010000110877",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000110877.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000110968",
     "title": "Game 70010000110968",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000110968.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000111688",
     "title": "Game 70010000111688",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000111688.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000111987",
     "title": "Game 70010000111987",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000111987.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000114919",
     "title": "Game 70010000114919",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000114919.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000115747",
     "title": "Game 70010000115747",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000115747.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000115751",
     "title": "Game 70010000115751",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000115751.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000116098",
     "title": "Game 70010000116098",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000116098.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000116854",
     "title": "Game 70010000116854",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000116854.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000117098",
     "title": "Game 70010000117098",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000117098.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000117655",
     "title": "Game 70010000117655",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000117655.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000118148",
     "title": "Game 70010000118148",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000118148.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000118646",
     "title": "Game 70010000118646",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000118646.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000119037",
     "title": "Game 70010000119037",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000119037.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000119986",
     "title": "Game 70010000119986",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000119986.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000120438",
     "title": "Game 70010000120438",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000120438.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000120802",
     "title": "Game 70010000120802",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000120802.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000121598",
     "title": "Game 70010000121598",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000121598.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000121704",
     "title": "Game 70010000121704",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000121704.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000122884",
     "title": "Game 70010000122884",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000122884.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000122890",
     "title": "Game 70010000122890",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000122890.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000122902",
     "title": "Game 70010000122902",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000122902.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000124782",
     "title": "Game 70010000124782",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000124782.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000125066",
     "title": "Game 70010000125066",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000125066.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000126133",
     "title": "Game 70010000126133",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000126133.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000126846",
     "title": "Game 70010000126846",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000126846.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000127989",
     "title": "Game 70010000127989",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000127989.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000128026",
     "title": "Game 70010000128026",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000128026.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000128495",
     "title": "Game 70010000128495",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000128495.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000128549",
     "title": "Game 70010000128549",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000128549.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000129164",
     "title": "Game 70010000129164",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000129164.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000129227",
     "title": "Game 70010000129227",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000129227.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000129246",
     "title": "Game 70010000129246",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000129246.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000130152",
     "title": "Game 70010000130152",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000130152.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000130350",
     "title": "Game 70010000130350",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000130350.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000130719",
     "title": "Game 70010000130719",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000130719.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000130924",
     "title": "Game 70010000130924",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000130924.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000131481",
     "title": "Game 70010000131481",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000131481.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000131533",
     "title": "Game 70010000131533",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000131533.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000131599",
     "title": "Game 70010000131599",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000131599.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000131651",
     "title": "Game 70010000131651",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000131651.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000132206",
     "title": "Game 70010000132206",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000132206.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000132400",
     "title": "Game 70010000132400",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000132400.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000133085",
     "title": "Game 70010000133085",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000133085.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000133403",
     "title": "Game 70010000133403",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000133403.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000133433",
     "title": "Game 70010000133433",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000133433.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000134029",
     "title": "Game 70010000134029",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000134029.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000134145",
     "title": "Game 70010000134145",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000134145.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000134309",
     "title": "Game 70010000134309",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000134309.jpg",
     "releaseDate": ""
   },
   {
     "id": "70010000134365",
     "title": "Game 70010000134365",
     "platform": "switch1",
-    "coverUrl": "",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000134365.jpg",
     "releaseDate": ""
+  },
+  {
+    "id": "70010000014890",
+    "title": "Gear.Club Unlimited 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014890.jpg",
+    "releaseDate": "2019.1.16"
+  },
+  {
+    "id": "70010000014494",
+    "title": "Ghost Blade HD",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014494.jpg",
+    "releaseDate": "2020.2.20"
+  },
+  {
+    "id": "70010000022872",
+    "title": "Ghostbusters: The Video Game Remastered",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022872.jpg",
+    "releaseDate": "2019.12.12"
+  },
+  {
+    "id": "70010000035464",
+    "title": "Ghostrunner",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000035464.jpg",
+    "releaseDate": "2020.12.24"
+  },
+  {
+    "id": "70010000043184",
+    "title": "GLOOM AND DOOM",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000043184.jpg",
+    "releaseDate": "2022.6.16"
+  },
+  {
+    "id": "70010000009229",
+    "title": "Go Vacation",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009229.jpg",
+    "releaseDate": "2018.7.27"
+  },
+  {
+    "id": "70010000012582",
+    "title": "GOD WARS THE COMPLETE LEGEND",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012582.jpg",
+    "releaseDate": "2018.9.27"
+  },
+  {
+    "id": "70010000029724",
+    "title": "Good Job!",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029724.jpg",
+    "releaseDate": "2020.3.26"
+  },
+  {
+    "id": "70010000013831",
+    "title": "Gotcha Racing 2nd",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013831.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000014443",
+    "title": "GUILTY GEAR",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014443.jpg",
+    "releaseDate": "2019.5.16"
+  },
+  {
+    "id": "70010000012664",
+    "title": "GUILTY GEAR XX ACCENT CORE PLUS R",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012664.jpg",
+    "releaseDate": "2019.5.16"
+  },
+  {
+    "id": "70010000011856",
+    "title": "Happy Birthdays",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011856.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000052513",
+    "title": "HARVESTELLA",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000052513.jpg",
+    "releaseDate": "2022.11.4"
+  },
+  {
+    "id": "70010000044889",
+    "title": "HOT WHEELS UNLEASHED™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000044889.jpg",
+    "releaseDate": "2021.9.30"
+  },
+  {
+    "id": "70070000013017",
+    "title": "HOT WHEELS UNLEASHED™ - Collectors Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013017.jpg",
+    "releaseDate": "2021.9.30"
+  },
+  {
+    "id": "70070000013018",
+    "title": "HOT WHEELS UNLEASHED™ - Ultimate Stunt Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013018.jpg",
+    "releaseDate": "2021.9.30"
+  },
+  {
+    "id": "70010000054239",
+    "title": "JOJO的奇妙冒險 群星之戰 重製版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000054239.jpg",
+    "releaseDate": "2022.9.1"
+  },
+  {
+    "id": "70070000014373",
+    "title": "JOJO的奇妙冒險 群星之戰 重製版 數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014373.jpg",
+    "releaseDate": "2022.9.1"
+  },
+  {
+    "id": "70010000029098",
+    "title": "Journey to the savage planet",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029098.jpg",
+    "releaseDate": "2020.8.20"
+  },
+  {
+    "id": "70010000029211",
+    "title": "JUMP FORCE - 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029211.jpg",
+    "releaseDate": "2020.8.27"
+  },
+  {
+    "id": "70010000033778",
+    "title": "Jump King",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033778.jpg",
+    "releaseDate": "2020.12.17"
+  },
+  {
+    "id": "70010000018622",
+    "title": "Just Dance 舞力全開 2020",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018622.jpg",
+    "releaseDate": "2019.11.5"
+  },
+  {
+    "id": "70010000033920",
+    "title": "Just Dance 舞力全開 2021",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033920.jpg",
+    "releaseDate": "2020.11.12"
+  },
+  {
+    "id": "70010000021858",
+    "title": "KAMEN RIDER 英雄尋憶",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021858.jpg",
+    "releaseDate": "2020.10.29"
+  },
+  {
+    "id": "70010000015172",
+    "title": "KAMEN RIDER 巔峰亂鬥",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015172.jpg",
+    "releaseDate": "2018.11.29"
+  },
+  {
+    "id": "70010000020297",
+    "title": "KILL la KILL -IF",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020297.jpg",
+    "releaseDate": "2019.7.25"
+  },
+  {
+    "id": "70010000032355",
+    "title": "KINGDOM HEARTS Melody of Memory (中文版）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032355.jpg",
+    "releaseDate": "2020.11.11"
+  },
+  {
+    "id": "70010000010041",
+    "title": "Kunio Kun: The World Classics Collection",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010041.jpg",
+    "releaseDate": "2018.12.20"
+  },
+  {
+    "id": "70010000023815",
+    "title": "LANGRISSER I & II Remake 夢幻模擬戰 I & II 重製版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023815.jpg",
+    "releaseDate": "2020.1.23"
+  },
+  {
+    "id": "70010000014793",
+    "title": "Lapis x Labyrinth 深淵狂獵",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014793.jpg",
+    "releaseDate": "2019.2.21"
+  },
+  {
+    "id": "70010000022316",
+    "title": "LEGO® 侏羅紀世界",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022316.jpg",
+    "releaseDate": "2020.2.27"
+  },
+  {
+    "id": "70010000010701",
+    "title": "LEGO® 超人特攻隊",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010701.jpg",
+    "releaseDate": "2020.2.27"
+  },
+  {
+    "id": "70010000013222",
+    "title": "LEGO® DC 超級反派",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013222.jpg",
+    "releaseDate": "2020.3.12"
+  },
+  {
+    "id": "70010000013535",
+    "title": "LEGO® Harry Potter™ Collection",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013535.jpg",
+    "releaseDate": "2020.2.23"
+  },
+  {
+    "id": "70010000026608",
+    "title": "LEGO® Marvel™超級英雄",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000026608.jpg",
+    "releaseDate": "2021.10.6"
+  },
+  {
+    "id": "70010000030536",
+    "title": "Let's Sing 2021 中文版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030536.jpg",
+    "releaseDate": "2020.11.27"
+  },
+  {
+    "id": "70010000012752",
+    "title": "Little Dragons Café",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012752.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000018834",
+    "title": "LOVE LOVE 甜點 ~你和我的秘密食譜~",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018834.jpg",
+    "releaseDate": "2019.5.30"
+  },
+  {
+    "id": "70010000031946",
+    "title": "MAD RAT DEAD",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000031946.jpg",
+    "releaseDate": "2020.10.29"
+  },
+  {
+    "id": "70010000042937",
+    "title": "Mario Party™ Superstars（瑪利歐派對 超級巨星）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000042937.jpg",
+    "releaseDate": "2021.10.29"
+  },
+  {
+    "id": "70010000010681",
+    "title": "Mario Tennis Ace",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010681.jpg",
+    "releaseDate": "2018.6.22"
+  },
+  {
+    "id": "70010000018001",
+    "title": "Mars or Die!",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018001.jpg",
+    "releaseDate": "2019.5.9"
+  },
+  {
+    "id": "70010000011229",
+    "title": "Mega Man 11",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011229.jpg",
+    "releaseDate": "2018.10.3"
+  },
+  {
+    "id": "70010000013161",
+    "title": "Mega Man Legacy Collection",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013161.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000010134",
+    "title": "Mega Man Legacy Collection 2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010134.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000028630",
+    "title": "Metro 2033 Redux",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028630.jpg",
+    "releaseDate": "2020.4.23"
+  },
+  {
+    "id": "70010000028629",
+    "title": "Metro: Last Light Redux",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028629.jpg",
+    "releaseDate": "2020.4.23"
+  },
+  {
+    "id": "70010000024522",
+    "title": "Minecraft",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024522.jpg",
+    "releaseDate": "2020.1.16"
+  },
+  {
+    "id": "70070000012483",
+    "title": "Minecraft Dungeons：終極版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000012483.jpg",
+    "releaseDate": "2021.7.28"
+  },
+  {
+    "id": "70010000022227",
+    "title": "MISTOVER",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022227.jpg",
+    "releaseDate": "2019.10.10"
+  },
+  {
+    "id": "70010000028466",
+    "title": "MODEL Debut #nicola/模特兒出道 nicola",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028466.jpg",
+    "releaseDate": "2020.5.28"
+  },
+  {
+    "id": "70010000051205",
+    "title": "MODEL Debut 2 #nicola/模特兒出道 2 nicola",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000051205.jpg",
+    "releaseDate": "2022.7.14"
+  },
+  {
+    "id": "70010000033355",
+    "title": "MONKEY BARRELS",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033355.jpg",
+    "releaseDate": "2021.2.25"
+  },
+  {
+    "id": "70010000011025",
+    "title": "Monster Hunter Generations Ultimate™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011025.jpg",
+    "releaseDate": "2018.8.28"
+  },
+  {
+    "id": "70010000013722",
+    "title": "MONSTER HUNTER GENERATIONS ULTIMATE™ Demo",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013722.jpg",
+    "releaseDate": "2018.8.20"
+  },
+  {
+    "id": "70010000029013",
+    "title": "MONSTER HUNTER RISE",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029013.jpg",
+    "releaseDate": "2021.3.26"
+  },
+  {
+    "id": "70070000013807",
+    "title": "MONSTER HUNTER RISE + SUNBREAK 組合包",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013807.jpg",
+    "releaseDate": "2022.6.30"
+  },
+  {
+    "id": "70070000013812",
+    "title": "MONSTER HUNTER RISE + SUNBREAK 雙重豪華組合包",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000013812.jpg",
+    "releaseDate": "2022.6.30"
+  },
+  {
+    "id": "70070000014221",
+    "title": "Monster Hunter Rise DLC Pack ５",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014221.jpg",
+    "releaseDate": "2022.6.30"
+  },
+  {
+    "id": "70010000029910",
+    "title": "Moving Out",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029910.jpg",
+    "releaseDate": "2020.4.28"
+  },
+  {
+    "id": "70010000013864",
+    "title": "Mulaka",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013864.jpg",
+    "releaseDate": "2019.1.23"
+  },
+  {
+    "id": "70010000013729",
+    "title": "NBA 2K 熱血街球場2",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013729.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000011481",
+    "title": "NBA 2K19",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011481.jpg",
+    "releaseDate": "2020.2.27"
+  },
+  {
+    "id": "70010000019988",
+    "title": "NBA 2K20",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019988.jpg",
+    "releaseDate": "2020.5.21"
+  },
+  {
+    "id": "70010000017149",
+    "title": "New 超級瑪利歐兄弟U 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017149.jpg",
+    "releaseDate": "2019.1.11"
+  },
+  {
+    "id": "70010000037992",
+    "title": "New 寶可夢隨樂拍",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000037992.jpg",
+    "releaseDate": "2021.4.30"
+  },
+  {
+    "id": "70010000016903",
+    "title": "Ni no Kuni: Wrath of the White Witch",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016903.jpg",
+    "releaseDate": "2019.9.20"
+  },
+  {
+    "id": "70010000048606",
+    "title": "NieR:Automata The End of YoRHa Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000048606.jpg",
+    "releaseDate": "2022.10.6"
+  },
+  {
+    "id": "70010000024934",
+    "title": "Ninja JaJaMaru Collection -忍者茶茶丸 合集-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000024934.jpg",
+    "releaseDate": "2019.12.12"
+  },
+  {
+    "id": "70010000049934",
+    "title": "Nintendo Switch 運動",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000049934.jpg",
+    "releaseDate": "2022.4.29"
+  },
+  {
+    "id": "70010000014731",
+    "title": "Nippon Marathon",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014731.jpg",
+    "releaseDate": "2018.12.17"
+  },
+  {
+    "id": "70010000044640",
+    "title": "No Man's Sky",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000044640.jpg",
+    "releaseDate": "2022.10.7"
+  },
+  {
+    "id": "70010000021223",
+    "title": "OCTOPATH TRAVELER 歧路旅人",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021223.jpg",
+    "releaseDate": "2019.6.7"
+  },
+  {
+    "id": "70010000011858",
+    "title": "OCTOPATH TRAVELER™ Prologue Demo",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011858.jpg",
+    "releaseDate": "2018.6.15"
+  },
+  {
+    "id": "70010000014422",
+    "title": "Old School Musical（舊式歌劇）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014422.jpg",
+    "releaseDate": "2018.12.6"
+  },
+  {
+    "id": "70010000020086",
+    "title": "Omega Labyrinth Life (ω 迷宮 Life)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020086.jpg",
+    "releaseDate": "2019.8.1"
+  },
+  {
+    "id": "70010000018442",
+    "title": "ONE PIECE 海賊無雙4",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018442.jpg",
+    "releaseDate": "2020.3.26"
+  },
+  {
+    "id": "70010000014924",
+    "title": "Onimusha: Warlords",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014924.jpg",
+    "releaseDate": "2019.1.16"
+  },
+  {
+    "id": "70010000015947",
+    "title": "ONINAKI",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015947.jpg",
+    "releaseDate": "2019.8.22"
+  },
+  {
+    "id": "70010000020120",
+    "title": "Panty Party",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020120.jpg",
+    "releaseDate": "2019.5.16"
+  },
+  {
+    "id": "70070000006141",
+    "title": "PEACH BALL 閃亂神樂",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000006141.jpg",
+    "releaseDate": "2019.5.16"
+  },
+  {
+    "id": "70010000028539",
+    "title": "PGA TOUR 2K21",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028539.jpg",
+    "releaseDate": "2020.8.21"
+  },
+  {
+    "id": "70010000015845",
+    "title": "Phoenix Wright: Ace Attorney Trilogy(逆轉裁判123成步堂精選集)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015845.jpg",
+    "releaseDate": "2019.4.10"
+  },
+  {
+    "id": "70010000032448",
+    "title": "Pokémon Café Mix",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032448.jpg",
+    "releaseDate": "2020.6.24"
+  },
+  {
+    "id": "70010000043295",
+    "title": "Pokémon UNITE",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000043295.jpg",
+    "releaseDate": "2021.7.21"
+  },
+  {
+    "id": "70010000008922",
+    "title": "PSYVARIAR DELTA《閃速神機》",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000008922.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000009847",
+    "title": "RADIOHAMMER STATION",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009847.jpg",
+    "releaseDate": "2018.8.30"
+  },
+  {
+    "id": "70010000012132",
+    "title": "Rayman® Legends Definitive Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012132.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000027374",
+    "title": "Re：從零開始的異世界生活 虛假的王選候補",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000027374.jpg",
+    "releaseDate": "2021.1.28"
+  },
+  {
+    "id": "70010000012853",
+    "title": "Resident Evil",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012853.jpg",
+    "releaseDate": "2019.5.21"
+  },
+  {
+    "id": "70010000012849",
+    "title": "Resident Evil 0",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012849.jpg",
+    "releaseDate": "2019.5.21"
+  },
+  {
+    "id": "70010000012857",
+    "title": "resident evil 4",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012857.jpg",
+    "releaseDate": "2019.5.21"
+  },
+  {
+    "id": "70010000015875",
+    "title": "Resident Evil 5",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015875.jpg",
+    "releaseDate": "2019.10.29"
+  },
+  {
+    "id": "70010000015879",
+    "title": "Resident Evil 6",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015879.jpg",
+    "releaseDate": "2019.10.29"
+  },
+  {
+    "id": "70010000014707",
+    "title": "Reverie: Sweet As Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014707.jpg",
+    "releaseDate": "2020.1.16"
+  },
+  {
+    "id": "70010000050602",
+    "title": "SaGa 未拓領域 Remastered",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000050602.jpg",
+    "releaseDate": "2022.8.25"
+  },
+  {
+    "id": "70010000023476",
+    "title": "SAMURAI SHODOWN",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023476.jpg",
+    "releaseDate": "2019.11.21"
+  },
+  {
+    "id": "70010000030488",
+    "title": "SAMURAI SHODOWN NEOGEO COLLECTION",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000030488.jpg",
+    "releaseDate": "2020.7.30"
+  },
+  {
+    "id": "70010000010816",
+    "title": "Scribblenauts Mega Pack",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010816.jpg",
+    "releaseDate": "2020.2.24"
+  },
+  {
+    "id": "70010000028996",
+    "title": "Scribblenauts Showdown",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028996.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000050234",
+    "title": "SD GUNDAM 激鬥同盟",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000050234.jpg",
+    "releaseDate": "2022.8.25"
+  },
+  {
+    "id": "70070000014835",
+    "title": "SD GUNDAM 激鬥同盟 數位終極版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014835.jpg",
+    "releaseDate": "2022.8.25"
+  },
+  {
+    "id": "70070000014833",
+    "title": "SD GUNDAM 激鬥同盟 數位豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70070000014833.jpg",
+    "releaseDate": "2022.8.25"
+  },
+  {
+    "id": "70010000015982",
+    "title": "SD GUNDAM G 世代 火線縱橫",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015982.jpg",
+    "releaseDate": "2019.11.28"
+  },
+  {
+    "id": "70010000016829",
+    "title": "SD GUNDAM G 世代 火線縱橫 Premium G Sound Edition",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016829.jpg",
+    "releaseDate": "2019.11.28"
+  },
+  {
+    "id": "70010000017051",
+    "title": "SEGA Mega Drive Classics",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000017051.jpg",
+    "releaseDate": "2019.2.27"
+  },
+  {
+    "id": "70010000013576",
+    "title": "Shephy",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013576.jpg",
+    "releaseDate": "2018.8.9"
+  },
+  {
+    "id": "70010000010186",
+    "title": "Shikhondo - 食魂徒",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010186.jpg",
+    "releaseDate": "2020.1.16"
+  },
+  {
+    "id": "70010000009403",
+    "title": "Slice, Dice & Rice",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009403.jpg",
+    "releaseDate": "2018.10.11"
+  },
+  {
+    "id": "70010000033621",
+    "title": "Sniper Elite 4",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000033621.jpg",
+    "releaseDate": "2020.12.3"
+  },
+  {
+    "id": "70010000012033",
+    "title": "SONIC FORCES",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012033.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000012912",
+    "title": "SONIC MANIA",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012912.jpg",
+    "releaseDate": "2018.9.13"
+  },
+  {
+    "id": "70010000037510",
+    "title": "Spacebase Startopia",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000037510.jpg",
+    "releaseDate": "2021.10.14"
+  },
+  {
+    "id": "70010000009641",
+    "title": "Splatoon2 (日文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009641.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000009642",
+    "title": "Splatoon2 (英文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009642.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000022968",
+    "title": "Star Wars Pinball",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022968.jpg",
+    "releaseDate": "2020.1.23"
+  },
+  {
+    "id": "70010000029259",
+    "title": "Steam Prison",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000029259.jpg",
+    "releaseDate": "2021.2.25"
+  },
+  {
+    "id": "70010000008801",
+    "title": "Street Fighter 30th Anniversary Collection",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000008801.jpg",
+    "releaseDate": "2022.6.24"
+  },
+  {
+    "id": "70010000012526",
+    "title": "Super Bomberman R (English/Chinese/Korean/Japanese Ver.)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012526.jpg",
+    "releaseDate": "2020.2.13"
+  },
+  {
+    "id": "70010000023209",
+    "title": "Super Famicom Nintendo Switch Online",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000023209.jpg",
+    "releaseDate": "2019.9.6"
+  },
+  {
+    "id": "70010000020843",
+    "title": "Super Mario Maker 2（超級瑪利歐創作家 2）",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020843.jpg",
+    "releaseDate": "2019.6.28"
+  },
+  {
+    "id": "70010000014607",
+    "title": "Super Mario Party",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014607.jpg",
+    "releaseDate": "2018.10.5"
+  },
+  {
+    "id": "70010000010625",
+    "title": "Survive! MR.CUBE",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010625.jpg",
+    "releaseDate": "2019.6.20"
+  },
+  {
+    "id": "70010000037701",
+    "title": "Surviving the Aftermath",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000037701.jpg",
+    "releaseDate": "2022.7.28"
+  },
+  {
+    "id": "70010000011066",
+    "title": "Sushi Striker™: The Way of Sushido (英文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011066.jpg",
+    "releaseDate": "2018.6.8"
+  },
+  {
+    "id": "70010000036800",
+    "title": "Tactics Ogre: Reborn",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000036800.jpg",
+    "releaseDate": "2022.11.11"
+  },
+  {
+    "id": "70010000011639",
+    "title": "TEAM SONIC RACING",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011639.jpg",
+    "releaseDate": "2019.5.21"
+  },
+  {
+    "id": "70010000020718",
+    "title": "THE LAST REMNANT Remastered",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000020718.jpg",
+    "releaseDate": "2019.6.11"
+  },
+  {
+    "id": "70010000014944",
+    "title": "The MISSING -J.J. 麥克菲爾德與追憶之島-",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014944.jpg",
+    "releaseDate": "2018.10.11"
+  },
+  {
+    "id": "70010000019844",
+    "title": "THE NINJA SAVIORS: 戰士歸來",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000019844.jpg",
+    "releaseDate": "2019.7.25"
+  },
+  {
+    "id": "70010000032628",
+    "title": "The Survivalists",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000032628.jpg",
+    "releaseDate": "2020.10.9"
+  },
+  {
+    "id": "70010000011852",
+    "title": "The World Ends with You: Final Remix",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000011852.jpg",
+    "releaseDate": "2018.10.12"
+  },
+  {
+    "id": "70010000014888",
+    "title": "TOKI",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000014888.jpg",
+    "releaseDate": "2018.12.20"
+  },
+  {
+    "id": "70010000015122",
+    "title": "Travis Strikes Again：No More Heroes",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000015122.jpg",
+    "releaseDate": "2019.1.18"
+  },
+  {
+    "id": "70010000025169",
+    "title": "Trials of Mana (中文版)",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000025169.jpg",
+    "releaseDate": "2020.4.24"
+  },
+  {
+    "id": "70010000037868",
+    "title": "TRIANGLE STRATEGY",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000037868.jpg",
+    "releaseDate": "2022.3.4"
+  },
+  {
+    "id": "70010000022818",
+    "title": "Two Point Hospital™",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000022818.jpg",
+    "releaseDate": "2020.2.25"
+  },
+  {
+    "id": "70010000036181",
+    "title": "UFO找工作",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000036181.jpg",
+    "releaseDate": "2020.10.28"
+  },
+  {
+    "id": "70010000025089",
+    "title": "Ultra Age",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000025089.jpg",
+    "releaseDate": "2021.9.9"
+  },
+  {
+    "id": "70010000000039",
+    "title": "Ultra Street Fighter II: The Final Challengers",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000000039.jpg",
+    "releaseDate": "2017.5.26"
+  },
+  {
+    "id": "70010000009102",
+    "title": "ULTRA STREET FIGHTER® II The Final Challengers",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009102.jpg",
+    "releaseDate": "2018.6.20"
+  },
+  {
+    "id": "70010000010663",
+    "title": "VOEZ",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000010663.jpg",
+    "releaseDate": "2018.7.19"
+  },
+  {
+    "id": "70010000018262",
+    "title": "WONDER BOY RETURNS REMIX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018262.jpg",
+    "releaseDate": "2019.6.13"
+  },
+  {
+    "id": "70010000013094",
+    "title": "WORLD OF FINAL FANTASY MAXIMA",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000013094.jpg",
+    "releaseDate": "2018.11.6"
+  },
+  {
+    "id": "70010000021707",
+    "title": "WWE 2K殺戮戰場",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000021707.jpg",
+    "releaseDate": "2020.9.18"
+  },
+  {
+    "id": "70010000018955",
+    "title": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000018955.jpg",
+    "releaseDate": "2020.3.5"
+  },
+  {
+    "id": "70010000034768",
+    "title": "ZELDA無雙 災厄啟示錄",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000034768.jpg",
+    "releaseDate": "2020.11.20"
+  },
+  {
+    "id": "70010000009162",
+    "title": "ZELDA無雙 海拉魯全明星 豪華版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009162.jpg",
+    "releaseDate": "2018.6.20"
+  },
+  {
+    "id": "70010000016696",
+    "title": "ZOIDS機獸戰記 狂野爆發 王者爆發",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000016696.jpg",
+    "releaseDate": "2019.2.28"
+  },
+  {
+    "id": "70010000028393",
+    "title": "Zumba Burn It Up!",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000028393.jpg",
+    "releaseDate": "2020.6.18"
+  },
+  {
+    "id": "70010000012522",
+    "title": "ポケモン不思議のダンジョン 救助隊DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000012522.jpg",
+    "releaseDate": "2020.3.6"
+  },
+  {
+    "id": "70010000009643",
+    "title": "ポッ拳 POKKÉN TOURNAMENT DX",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009643.jpg",
+    "releaseDate": "2018.4.3"
+  },
+  {
+    "id": "70010000009644",
+    "title": "ポッ拳 POKKÉN TOURNAMENT DX 體驗版",
+    "platform": "switch1",
+    "coverUrl": "https://store.nintendo.com.hk/media/catalog/product/70010000009644.jpg",
+    "releaseDate": "2018.4.3"
   }
 ]

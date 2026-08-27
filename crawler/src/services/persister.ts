@@ -63,6 +63,14 @@ export function writeGames(games: Game[], dataDir: string): void {
   }
 
   const merged = Array.from(existing.values()).sort((a, b) => a.title.localeCompare(b.title));
+  
+  // Fill in missing cover URLs using Nintendo HK store
+  for (const game of merged) {
+    if (!game.coverUrl && game.id) {
+      game.coverUrl = `https://store.nintendo.com.hk/media/catalog/product/${game.id}.jpg`;
+    }
+  }
+  
   fs.writeFileSync(gamesPath, JSON.stringify(merged, null, 2), 'utf-8');
 }
 
