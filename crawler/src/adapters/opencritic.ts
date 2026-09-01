@@ -26,7 +26,6 @@ export interface OpenCriticSearchResult {
 
 // ─── Configuration ──────────────────────────────────────────
 
-const BASE_URL = 'https://opencritic-api.p.rapidapi.com';
 const RETRY_ATTEMPTS = 2;
 const RETRY_DELAY_MS = 1000;
 const REQUEST_DELAY_MS = 300; // Stay under 4 req/sec limit
@@ -40,12 +39,14 @@ function sleep(ms: number): Promise<void> {
 // ─── Adapter ────────────────────────────────────────────────
 
 export class OpenCriticAdapter {
+  private readonly baseUrl: string;
   private readonly headers: Record<string, string>;
 
-  constructor(apiKey: string) {
+  constructor(apiKey: string, baseUrl = 'https://opencritic-api.p.rapidapi.com') {
+    this.baseUrl = baseUrl;
     this.headers = {
       'Content-Type': 'application/json',
-      'x-rapidapi-host': 'opencritic-api.p.rapidapi.com',
+      'x-rapidapi-host': new URL(baseUrl).host,
       'x-rapidapi-key': apiKey,
     };
   }
@@ -220,7 +221,7 @@ export class OpenCriticAdapter {
 
     for (let attempt = 1; attempt <= RETRY_ATTEMPTS; attempt++) {
       try {
-        return await ofetch<T>(`${BASE_URL}${path}`, {
+        return await ofetch<T>(`${this.baseUrl}${path}`, {
           headers: this.headers,
         });
       } catch (err) {

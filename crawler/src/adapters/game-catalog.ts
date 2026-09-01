@@ -191,23 +191,29 @@ function sanitizeNsuid(raw: string): string {
 /**
  * Build a cover image URL from NSUID using Nintendo's CDN.
  */
-function buildCoverUrl(nsuid: string): string {
+export function buildCoverUrl(
+  nsuid: string,
+  cdn = 'https://store.nintendo.com.hk/media/catalog/product',
+): string {
   if (!nsuid) return '';
-  return `https://store.nintendo.com.hk/media/catalog/product/${nsuid}.jpg`;
+  return `${cdn}/${nsuid}.jpg`;
 }
 
 /**
  * Convert ParsedCatalogEntry to Game type with defaults.
  */
-export function toGame(entry: ParsedCatalogEntry): Game {
+export function toGame(
+  entry: ParsedCatalogEntry,
+  coverCdn?: string,
+): Game {
   const nsuid = sanitizeNsuid(entry.nsuid);
   const providedCover = sanitizeCoverUrl(entry.coverUrl ?? '');
-  
+
   return {
     id: nsuid,
     title: sanitizeTitle(entry.title),
     platform: entry.platform ?? 'switch1',
-    coverUrl: providedCover || buildCoverUrl(nsuid),
+    coverUrl: providedCover || buildCoverUrl(nsuid, coverCdn),
     releaseDate: entry.releaseDate ?? '',
   };
 }

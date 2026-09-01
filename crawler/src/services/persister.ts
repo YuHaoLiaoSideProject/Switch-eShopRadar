@@ -208,6 +208,54 @@ export function readLatest(dataDir: string): PriceSnapshot | null {
   }
 }
 
+// ─── Price Deltas ──────────────────────────────────────────
+
+/**
+ * Append a PriceDelta to the monthly history file ({dataDir}/history/{YYYY-MM}.json).
+ * Idempotent by delta.date — if an entry with the same date already exists, it is not duplicated.
+ */
+export function appendDelta(delta: PriceDelta, dataDir: string): void {
+  const month = delta.date.substring(0, 7); // YYYY-MM
+  const filePath = path.join(dataDir, 'history', `${month}.json`);
+
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+
+  let deltas: PriceDelta[] = [];
+  if (fs.existsSync(filePath)) {
+    try {
+      deltas = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as PriceDelta[];
+    } catch {
+      // Corrupted file — start fresh
+      deltas = [];
+    }
+  }
+
+  // Idempotent: don't append if a delta with the same date already exists
+  if (!deltas.some((d) => d.date === delta.date)) {
+    deltas.push(delta);
+  }
+
+  atomicWrite(filePath, deltas);
+}
+
+/**
+ * Read all PriceDeltas for a given month ({dataDir}/history/{month}.json).
+ * Returns an empty array if the file doesn't exist.
+ */
+export function readDeltas(month: string, dataDir: string): PriceDelta[] {
+  const filePath = path.join(dataDir, 'history', `${month}.json`);
+
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as PriceDelta[];
+  } catch {
+    return [];
+  }
+}
+
 // ─── Daily Snapshot ─────────────────────────────────────────
 
 /**

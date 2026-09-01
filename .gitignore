@@ -11,6 +11,9 @@ api/
 .env.local
 .env.*.local
 
+# Cache
+.cache/
+
 # IDE
 .vscode/
 .idea/

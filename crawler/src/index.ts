@@ -1,41 +1,93 @@
+import { config } from './config';
 import { runFetch } from './services/fetcher';
 import { computeDelta } from './services/delta';
 import { writeLatest, writeGames, readGames, updateGameScores, writeDailySnapshot, getLatestSnapshotDate, readDailySnapshot } from './services/persister';
 import { toGame } from './adapters/game-catalog';
 import { OpenCriticAdapter } from './adapters/opencritic';
+import { ImageResolver } from './adapters/image-resolver';
 
 async function main(): Promise<void> {
   console.log('[crawler] 🎮 Switch eShop Radar crawler started');
 
-  const catalogUrl = process.env.CATALOG_URL ?? 'https://www.nintendo.com/tw/data/json/switch_software.json';
-  const priceApiBaseUrl = process.env.PRICE_API_URL ?? 'https://api.ec.nintendo.com/v1/price';
-  const dataDir = process.env.DATA_DIR ?? '../data';
-  const country = process.env.COUNTRY ?? 'TW';
-  const lang = process.env.LANG ?? 'zh';
-  const openCriticKey = process.env.OPENCRITIC_API_KEY;
+  const {
+    catalogUrl,
+    priceApiBaseUrl,
+    dataDir,
+    country,
+    lang,
+    openCriticApiKey: openCriticKey,
+    openCriticSearchLimit,
+  } = config;
 
-  // Step 1: Fetch catalog + prices
+  // Step 1: Fetch catalog + prices (primary: Switch-Games.com, fallback: Nintendo API)
   const { snapshot, catalog } = await runFetch({
     catalogUrl,
     priceApiBaseUrl,
     country,
     lang,
+    coverCdn: config.coverCdn,
+    switchGames: config.switchGamesSupabaseUrl && config.switchGamesAnonKey
+      ? { supabaseUrl: config.switchGamesSupabaseUrl, anonKey: config.switchGamesAnonKey }
+      : undefined,
   });
 
   console.log(`[crawler] Fetched ${snapshot.prices.length} valid prices (filtered from ${catalog.length} catalog entries)`);
 
   // Step 2: Persist game catalog
-  const games = catalog.map(toGame);
+  const games = catalog.map((e) => toGame(e, config.coverCdn));
   writeGames(games, dataDir);
   console.log(`[crawler] Games catalog written to ${dataDir}/games.json (${games.length} games)`);
 
+  // Step 2.5: Resolve cover images from IGDB/Nintendo/Wikipedia
+  console.log('[crawler] Resolving cover images...');
+  const imageResolver = new ImageResolver({
+    dataDir,
+    cacheDir: config.cacheDir,
+    requestDelayMs: 200,
+    igdbClientId: config.igdbClientId,
+    igdbClientSecret: config.igdbClientSecret,
+  });
+  const gamesToResolve = games
+    .filter((g) => !g.coverUrl || g.coverUrl === '' || g.coverUrl.includes('store.nintendo.com.hk'))
+    .map((g) => ({ nsuid: g.id, title: g.title }));
+
+  if (gamesToResolve.length > 0) {
+    console.log(`[crawler] ${gamesToResolve.length} games need cover images`);
+    const resolved = await imageResolver.resolveBatch(
+      gamesToResolve,
+      (current, total) => {
+        if (current % 50 === 0 || current === total) {
+          console.log(`[crawler]   Resolved ${current}/${total} images...`);
+        }
+      },
+    );
+
+    // Update games with resolved images
+    let updatedCount = 0;
+    for (const game of games) {
+      if (resolved.has(game.id)) {
+        const { url } = resolved.get(game.id)!;
+        if (url) {
+          game.coverUrl = url;
+          updatedCount++;
+        }
+      }
+    }
+    console.log(`[crawler] Updated ${updatedCount} cover images from Wikipedia`);
+  } else {
+    console.log('[crawler] All games already have cover images — skipping image resolution');
+  }
+
+  // Re-persist games with updated images
+  writeGames(games, dataDir);
+  const cacheStats = imageResolver.getStats();
+  console.log(`[crawler] Image cache: ${cacheStats.cached} entries at ${cacheStats.path}`);
+
   // Step 3: Fetch OpenCritic scores (if API key provided)
   // Strategy: First match from top games list (1 API call), then search for remaining
-  const openCriticSearchLimit = parseInt(process.env.OPENCRITIC_SEARCH_LIMIT ?? '10', 10);
-  
   if (openCriticKey) {
     console.log('[crawler] Fetching OpenCritic scores...');
-    const ocAdapter = new OpenCriticAdapter(openCriticKey);
+    const ocAdapter = new OpenCriticAdapter(openCriticKey, config.openCriticBaseUrl);
     
     const existingGames = readGames(dataDir);
     const gamesNeedingScores = existingGames

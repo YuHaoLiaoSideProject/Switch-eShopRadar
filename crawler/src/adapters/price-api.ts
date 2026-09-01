@@ -168,7 +168,7 @@ export async function fetchPriceBatch(
 export class TWPriceApi implements PriceAdapter {
   private readonly baseUrl: string;
 
-  constructor(baseUrl: string = 'https://api.ec.nintendo.com/v1/price') {
+  constructor(baseUrl: string) {
     this.baseUrl = baseUrl;
   }
 
