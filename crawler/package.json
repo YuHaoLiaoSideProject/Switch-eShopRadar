@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "tsx --env-file=.env src/index.ts",
+    "start": "test -f .env && tsx --env-file=.env src/index.ts || tsx src/index.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

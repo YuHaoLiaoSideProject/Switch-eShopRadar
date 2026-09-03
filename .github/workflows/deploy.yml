@@ -36,6 +36,14 @@ jobs:
 
       - name: Run crawler
         run: npm run -w @eshop/crawler start
+        env:
+          CATALOG_URL: https://www.nintendo.com/tw/software/switch
+          PRICE_API_URL: https://api.ec.nintendo.com/v1/price
+          DATA_DIR: ./data
+          COUNTRY: TW
+          LANG: zh
+          OPENCRITIC_API_KEY: ${{ secrets.OPENCRITIC_API_KEY }}
+          OPENCRITIC_SEARCH_LIMIT: '10'
 
       - name: Build
         run: npm run build
